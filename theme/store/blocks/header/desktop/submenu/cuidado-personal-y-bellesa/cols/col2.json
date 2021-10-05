@@ -1,0 +1,16 @@
+{
+    "vtex.menu@2.x:menu#cuidado-personal-y-bellesa-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-cuidado-cabello",
+            "menu-item#col-title-desodorantes",
+            "menu-item#col-title-jabones",
+            "menu-item#col-title-naturales",
+            "menu-item#col-title-proteccion-femenina",
+            "menu-item#col-title-shampoos",
+            "menu-item#col-title-tintes"
+        ]
+    }
+}

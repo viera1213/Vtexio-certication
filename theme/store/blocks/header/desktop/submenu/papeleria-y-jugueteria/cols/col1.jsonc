@@ -1,0 +1,39 @@
+{
+    "vtex.menu@2.x:menu#papeleria-y-jugueteria-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-juguete",
+            "menu-item#col-title-papeleria"
+        ]
+    },
+    "menu-item#col-title-juguete": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/papeleria-y-juguete/juguete",
+                "noFollow": true,
+                "tagTitle": "Juguete",
+                "text": "Juguete"
+            }
+        }
+    },
+    "menu-item#col-title-papeleria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/papeleria-y-juguete/papeleria",
+                "noFollow": true,
+                "tagTitle": "Papeleria",
+                "text": "Papeleria"
+            }
+        }
+    }
+}

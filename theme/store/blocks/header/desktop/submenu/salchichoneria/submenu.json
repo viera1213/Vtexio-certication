@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-salchichoneria": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-salchichoneria",
+            "flex-layout.row#menu-salchichoneria"
+        ]
+    },
+
+    "flex-layout.row#menu-salchichoneria": {
+        "children": [
+            "flex-layout.col#salchichoneria-col1",
+            "flex-layout.col#salchichoneria-col2",
+            "flex-layout.col#salchichoneria-col3"
+        ]
+    },
+    "rich-text#title-departamento-salchichoneria": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Salchichoneria](/salchichoneria)"
+        }
+    },
+    "flex-layout.col#salchichoneria-col1": {
+        "children": ["vtex.menu@2.x:menu#salchichoneria-col1"]
+    },
+    "flex-layout.col#salchichoneria-col2": {
+        "children": ["vtex.menu@2.x:menu#salchichoneria-col2"]
+    },
+    "flex-layout.col#salchichoneria-col3": {
+        "children": ["vtex.menu@2.x:menu#salchichoneria-col3"]
+    }
+}

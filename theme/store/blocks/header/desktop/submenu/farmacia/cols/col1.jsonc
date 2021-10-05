@@ -1,0 +1,69 @@
+{
+    "vtex.menu@2.x:menu#farmacia-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-insumos-para-salud",
+            "menu-item#col-title-medicina-popular",
+            "menu-item#col-title-naturales-farmacia",
+            "menu-item#col-title-venta-libre"
+        ]
+    },
+    "menu-item#col-title-insumos-para-salud": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/farmacia/insumos-para-salud",
+                "noFollow": true,
+                "tagTitle": "Insumos para salud",
+                "text": "Insumos para salud"
+            }
+        }
+    },
+    "menu-item#col-title-medicina-popular": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/farmacia/medicina-popular",
+                "noFollow": true,
+                "tagTitle": "Medicina popular",
+                "text": "Medicina popular"
+            }
+        }
+    },
+    "menu-item#col-title-naturales-farmacia": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/farmacia/naturales",
+                "noFollow": true,
+                "tagTitle": "Naturales",
+                "text": "Naturales"
+            }
+        }
+    },
+    "menu-item#col-title-venta-libre": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/farmacia/ventalibre",
+                "noFollow": true,
+                "tagTitle": "Venta libre",
+                "text": "Venta libre"
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-gourmet": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-gourmet",
+            "flex-layout.row#menu-gourmet"
+        ]
+    },
+
+    "flex-layout.row#menu-gourmet": {
+        "children": [
+            "flex-layout.col#gourmet-col1",
+            "flex-layout.col#gourmet-col2",
+            "flex-layout.col#gourmet-col3"
+        ]
+    },
+    "rich-text#title-departamento-gourmet": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Gourmet](/gourmet)"
+        }
+    },
+    "flex-layout.col#gourmet-col1": {
+        "children": ["vtex.menu@2.x:menu#gourmet-col1"]
+    },
+    "flex-layout.col#gourmet-col2": {
+        "children": ["vtex.menu@2.x:menu#gourmet-col2"]
+    },
+    "flex-layout.col#gourmet-col3": {
+        "children": ["vtex.menu@2.x:menu#gourmet-col3"]
+    }
+}

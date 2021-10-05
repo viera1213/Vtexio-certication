@@ -1,0 +1,15 @@
+{
+    "vtex.menu@2.x:menu#header-menu-phone": {
+        "props": {
+            "experimentalOptimizeRendering": true,
+            "orientation": "vertical"
+        },
+        "children": ["flex-layout.row#menu-phone"]
+    },
+    "flex-layout.row#menu-phone": {
+        "children": ["flex-layout.row#item-menu-phone-departamentos"],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

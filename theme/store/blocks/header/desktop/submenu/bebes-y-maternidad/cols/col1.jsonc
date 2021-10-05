@@ -1,0 +1,180 @@
+{
+    "vtex.menu@2.x:menu#bebes-y-maternidad-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-accesorios",
+            "menu-item#col-item-accesorios-1",
+            "menu-item#col-item-accesorios-2",
+            "menu-item#col-item-accesorios-3",
+            "menu-item#col-title-alimentos",
+            "menu-item#col-item-alimentos-1",
+            "menu-item#col-item-alimentos-2",
+            "menu-item#col-item-alimentos-3",
+            "menu-item#col-title-leches",
+            "menu-item#col-item-leches-1",
+            "menu-item#col-item-leches-2",
+            "menu-item#col-item-leches-3"
+        ]
+    },
+    "menu-item#col-title-accesorios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/accesorios",
+                "noFollow": true,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#col-item-accesorios-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/accesorios",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-accesorios-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/accesorios",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-accesorios-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/accesorios",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-alimentos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/alimentos",
+                "noFollow": true,
+                "tagTitle": "Alimentos",
+                "text": "Alimentos"
+            }
+        }
+    },
+    "menu-item#col-item-alimentos-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/alimentos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-alimentos-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/alimentos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-alimentos-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/alimentos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-leches": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/leches",
+                "noFollow": true,
+                "tagTitle": "Leches",
+                "text": "Leches"
+            }
+        }
+    },
+    "menu-item#col-item-leches-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/leches",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-leches-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/leches",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-leches-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/leches",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

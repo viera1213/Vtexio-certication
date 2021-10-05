@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#item-menu-category-audio": {
+        "children": [
+            "rich-text#item-menu-category-audio",
+            "drawer#item-menu-category-audio"
+        ],
+        "props": {
+            "blockClass": [
+                "row-item-menu-principal",
+                "row-item-menu-category-audio"
+            ]
+        }
+    },
+    "rich-text#item-menu-category-audio": {
+        "props": {
+            "text": "Audio",
+            "blockClass": ["item-menu-principal", "item-menu-category-audio"]
+        }
+    },
+    "drawer#item-menu-category-audio": {
+        "children": ["menu#menu-audio"],
+        "props": {
+            "blockClass": ["item-menu-principal", "item-menu-category-audio"],
+            "slideDirection": "rigthToLeft",
+            "maxWidth": 255
+        }
+    },
+    "menu#menu-audio": {
+        "children": [
+            "rich-text#title-departamento-alimentos-congelados",
+            "vtex.menu@2.x:menu#alimentos-y-congelados-col1",
+            "vtex.menu@2.x:menu#alimentos-y-congelados-col2",
+            "vtex.menu@2.x:menu#alimentos-y-congelados-col3"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "vtex.menu@2.x:menu#gourmet-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-comida",
+            "menu-item#col-title-desayuno",
+            "menu-item#col-title-mundo-europeo",
+            "menu-item#col-title-snacks",
+            "menu-item#col-title-sonora"
+        ]
+    },
+    "menu-item#col-title-comida": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/comida",
+                "noFollow": true,
+                "tagTitle": "Comida",
+                "text": "Comida"
+            }
+        }
+    },
+    "menu-item#col-title-desayuno": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/desayuno",
+                "noFollow": true,
+                "tagTitle": "Desayuno",
+                "text": "Desayuno"
+            }
+        }
+    },
+    "menu-item#col-title-mundo-europeo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/mundo-europeo",
+                "noFollow": true,
+                "tagTitle": "Mundo europeo",
+                "text": "Mundo europeo"
+            }
+        }
+    },
+    "menu-item#col-title-snacks": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/snacks",
+                "noFollow": true,
+                "tagTitle": "Snacks",
+                "text": "Snacks"
+            }
+        }
+    },
+    "menu-item#col-title-sonora": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet/sonora",
+                "noFollow": true,
+                "tagTitle": "Sonora",
+                "text": "Sonora"
+            }
+        }
+    }
+}

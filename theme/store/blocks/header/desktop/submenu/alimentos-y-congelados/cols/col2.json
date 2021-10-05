@@ -1,0 +1,180 @@
+{
+    "vtex.menu@2.x:menu#alimentos-y-congelados-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-nieves",
+            "menu-item#col-item-nieves-1",
+            "menu-item#col-item-nieves-2",
+            "menu-item#col-item-nieves-3",
+            "menu-item#col-title-pescados",
+            "menu-item#col-item-pescados-1",
+            "menu-item#col-item-pescados-2",
+            "menu-item#col-item-pescados-3",
+            "menu-item#col-title-verduras",
+            "menu-item#col-item-verduras-1",
+            "menu-item#col-item-verduras-2",
+            "menu-item#col-item-verduras-3"
+        ]
+    },
+    "menu-item#col-title-nieves": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/nieves",
+                "noFollow": true,
+                "tagTitle": "Nieves",
+                "text": "Nieves"
+            }
+        }
+    },
+    "menu-item#col-item-nieves-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/nieves",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-nieves-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/nieves",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-nieves-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/nieves",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-pescados": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/pescados",
+                "noFollow": true,
+                "tagTitle": "Pescados",
+                "text": "Pescados"
+            }
+        }
+    },
+    "menu-item#col-item-pescados-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/pescados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-pescados-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/pescados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-pescados-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/pescados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-verduras": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/verduras",
+                "noFollow": true,
+                "tagTitle": "Verduras",
+                "text": "Verduras"
+            }
+        }
+    },
+    "menu-item#col-item-verduras-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/verduras",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-verduras-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/verduras",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-verduras-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/verduras",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

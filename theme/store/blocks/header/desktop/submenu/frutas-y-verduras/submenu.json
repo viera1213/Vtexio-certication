@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-frutas-y-verduras": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-frutas-y-verduras",
+            "flex-layout.row#menu-frutas-y-verduras"
+        ]
+    },
+
+    "flex-layout.row#menu-frutas-y-verduras": {
+        "children": [
+            "flex-layout.col#frutas-y-verduras-col1",
+            "flex-layout.col#frutas-y-verduras-col2",
+            "flex-layout.col#frutas-y-verduras-col3"
+        ]
+    },
+    "rich-text#title-departamento-frutas-y-verduras": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Frutas y verduras](/frutas-y-verduras)"
+        }
+    },
+    "flex-layout.col#frutas-y-verduras-col1": {
+        "children": ["vtex.menu@2.x:menu#frutas-y-verduras-col1"]
+    },
+    "flex-layout.col#frutas-y-verduras-col2": {
+        "children": ["vtex.menu@2.x:menu#frutas-y-verduras-col2"]
+    },
+    "flex-layout.col#frutas-y-verduras-col3": {
+        "children": ["vtex.menu@2.x:menu#frutas-y-verduras-col3"]
+    }
+}

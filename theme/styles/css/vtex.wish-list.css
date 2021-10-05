@@ -1,0 +1,9 @@
+.wishlistIconContainer :global(.vtex-button) {
+    background: transparent !important;
+    outline: none;
+    border: none;
+}
+
+.wishlistIconContainer {
+    position: relative;
+}

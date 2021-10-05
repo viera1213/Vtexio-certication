@@ -1,0 +1,163 @@
+{
+    "header-row#header-phone-1": {
+        "children": ["telemarketing"]
+    },
+    "header-row#header-phone-2": {
+        "children": ["flex-layout.row#top-bar"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-row#header-phone-3": {
+        "children": [
+            "flex-layout.row#logo-mobile",
+            "header-spacer",
+            "header-spacer",
+            "flex-layout.row#cart"
+        ],
+        "props": {
+            "sticky": true
+        }
+    },
+
+    "header-row#header-phone-4": {
+        "children": [
+            "flex-layout.row#drawer-header-mobile",
+            "search-bar#mobile"
+        ],
+        "props": {
+            "sticky": true
+        }
+    },
+    "search-bar#mobile": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "placeholder": "¿Qué estás buscando?",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#drawer-header-mobile": {
+        "children": ["drawer#header-mobile"]
+    },
+    "drawer#header-mobile": {
+        "props": {
+            "blockClass": "menu-drawer",
+            "slideDirection": "leftToRight",
+            "maxWidth": 255
+        },
+        "blocks": ["drawer-header#header-mobile"],
+        "children": ["menu#drawer"]
+    },
+
+    // menu emergente
+    "drawer-header#header-mobile": {
+        "children": ["flex-layout.row#header-drawer"]
+    },
+    "flex-layout.row#header-drawer": {
+        "children": [
+            "flex-layout.row#logo-drawer",
+            "flex-layout.row#close-drawer",
+            "flex-layout.row#sidebar-drawer"
+        ]
+    },
+    "flex-layout.row#close-drawer": {
+        "children": ["drawer-close-button", "rich-text#menu-text-close"],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#sidebar-drawer": {
+        "children": [
+            "flex-layout.col#sidebar-drawer-1",
+            "flex-layout.col#sidebar-drawer-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#sidebar-drawer-1": {
+        "children": ["flex-layout.row#login"]
+    },
+    "flex-layout.col#sidebar-drawer-2": {
+        "children": ["flex-layout.row#cart"]
+    },
+    "rich-text#menu-text-close": {
+        "props": {
+            "text": "**Cerrar**"
+        }
+    },
+    "menu#drawer": {
+        "children": ["vtex.menu@2.x:menu#header-menu-phone"],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-drawer"
+        }
+    },
+    "menu-item#categories2": {
+        "props": {
+            "type": "custom",
+            "iconId": "arrow-back",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "CATEGORÍAS"
+            }
+        }
+    },
+    /*"sidebar-menu": {
+    "children": [
+      "menu-item#my-account-mobile-drawer",
+      "menu-item#my-orders-mobile-drawer",
+      "menu-item#cyberdays2"
+    ]
+  },
+  */
+    "menu-item#my-account-mobile-drawer": {
+        "props": {
+            "type": "custom",
+
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/account#/profile",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Mi cuenta"
+            }
+        }
+    },
+    "menu-item#my-orders-mobile-drawer": {
+        "props": {
+            "type": "custom",
+
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/account#/orders",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Mis Pedidos"
+            }
+        }
+    },
+    "menu-item#cyberdays2": {
+        "props": {
+            "type": "custom",
+
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "/vendeaqui",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Vende aquí"
+            }
+        }
+    }
+}

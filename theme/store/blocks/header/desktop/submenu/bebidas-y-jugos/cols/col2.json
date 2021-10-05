@@ -1,0 +1,237 @@
+{
+    "vtex.menu@2.x:menu#bebidas-y-jugos-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-leches-bebidas",
+            "menu-item#col-item-leches-bebidas-1",
+            "menu-item#col-item-leches-bebidas-2",
+            "menu-item#col-item-leches-bebidas-3",
+            "menu-item#col-title-naturista",
+            "menu-item#col-item-naturista-1",
+            "menu-item#col-item-naturista-2",
+            "menu-item#col-item-naturista-3",
+            "menu-item#col-title-refrescos",
+            "menu-item#col-item-refrescos-1",
+            "menu-item#col-item-refrescos-2",
+            "menu-item#col-item-refrescos-3",
+            "menu-item#col-title-te-listo-para-beber",
+            "menu-item#col-item-te-listo-para-beber-1",
+            "menu-item#col-item-te-listo-para-beber-2",
+            "menu-item#col-item-te-listo-para-beber-3"
+        ]
+    },
+    "menu-item#col-title-leches-bebidas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/leches",
+                "noFollow": true,
+                "tagTitle": "Leches",
+                "text": "Leches"
+            }
+        }
+    },
+    "menu-item#col-item-leches-bebidas-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/leches",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-leches-bebidas-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/leches",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-leches-bebidas-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/leches",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-naturista": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/naturistas",
+                "noFollow": true,
+                "tagTitle": "Naturista",
+                "text": "Naturista"
+            }
+        }
+    },
+    "menu-item#col-item-naturista-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/naturistas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-naturista-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/naturistas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-naturista-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/naturistas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-refrescos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/refrescos",
+                "noFollow": true,
+                "tagTitle": "Refrescos",
+                "text": "Refrescos"
+            }
+        }
+    },
+    "menu-item#col-item-refrescos-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/refrescos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-refrescos-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/refrescos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-refrescos-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/refrescos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-te-listo-para-beber": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/te-listo-para-beber",
+                "noFollow": true,
+                "tagTitle": "Te listo para beber",
+                "text": "Te listo para beber"
+            }
+        }
+    },
+    "menu-item#col-item-te-listo-para-beber-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/te-listo-para-beber",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-te-listo-para-beber-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/te-listo-para-beber",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-te-listo-para-beber-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/te-listo-para-beber",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

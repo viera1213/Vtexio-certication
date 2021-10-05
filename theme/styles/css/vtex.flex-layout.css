@@ -1,0 +1,31 @@
+.flexCol--filterCol {
+    max-width: 500px;
+    min-width: 230px;
+}
+
+.flexRow--productSpecificationGroup:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.flexRow--productSpecificationGroupName {
+    background-color: gray;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.flexCol--productSpecificationName {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.flexCol--productSpecificationValue {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.flexRow--productSpecification:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.flexRow--copyright {
+    background-color: #000000;
+}

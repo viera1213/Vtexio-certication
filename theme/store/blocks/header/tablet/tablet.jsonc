@@ -1,0 +1,43 @@
+{
+    "header-row#header-tablet-1": {
+        "children": ["telemarketing"]
+    },
+    "header-row#header-tablet-2": {
+        "children": ["flex-layout.row#top-bar"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-row#header-tablet-3": {
+        "children": [
+            "logo#desktop",
+            "header-spacer",
+            "header-spacer",
+            "search-bar",
+            "header-spacer",
+            "flex-layout.row#login",
+            "flex-layout.row#cart"
+        ],
+        "props": {
+            "sticky": true
+        }
+    },
+    "header-row#header-tablet-4": {
+        "children": ["vtex.menu@2.x:menu#header-menu-tablet"]
+    },
+    "vtex.menu@2.x:menu#header-menu-tablet": {
+        "props": {
+            "experimentalOptimizeRendering": true
+        },
+        "children": [
+            "flex-layout.row#categories-header-menu-tablet",
+            "menu-item#buen-fin",
+            "menu-item#chedrauilandia",
+            "menu-item#colecciones-navideñas",
+            "menu-item#nuestras-marcas"
+        ]
+    },
+    "flex-layout.row#categories-header-menu-tablet": {
+        "children": ["flex-layout.row#drawer-header-mobile"]
+    }
+}

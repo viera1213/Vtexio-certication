@@ -1,0 +1,206 @@
+{
+    "vtex.menu@2.x:menu#mascotas-col3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-mascotas-marcas",
+            "menu-item#col-item-mascotas-marcas-decibel",
+            "menu-item#col-item-mascotas-marcas-sony",
+            "menu-item#col-item-mascotas-marcas-jbl",
+            "menu-item#col-item-mascotas-marcas-motorola",
+            "menu-item#col-item-mascotas-marcas-skullcandy",
+            "menu-item#col-item-mascotas-marcas-panasonic",
+            "menu-item#col-item-mascotas-marcas-altec",
+            "menu-item#col-item-mascotas-marcas-bose",
+            "menu-item#col-item-mascotas-marcas-sennheiser",
+            "menu-item#col-item-mascotas-marcas-coolbox",
+            "menu-item#col-item-mascotas-marcas-blacksheep",
+            "menu-item#col-item-mascotas-marcas-xiaomi",
+            "menu-item#col-item-mascotas-marcas-izuum"
+        ]
+    },
+    "menu-item#col-title-mascotas-marcas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "MARCAS",
+                "text": "MARCAS"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-decibel": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/decibel?_q=decibel&map=ft",
+                "noFollow": true,
+                "tagTitle": "DECIBEL",
+                "text": "DECIBEL"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-sony": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sony?_q=sony&map=ft",
+                "noFollow": true,
+                "tagTitle": "SONY",
+                "text": "SONY"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-jbl": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jbl?_q=jbl&map=ft",
+                "noFollow": true,
+                "tagTitle": "JBL",
+                "text": "JBL"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-motorola": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/motorola?_q=motorola&map=ft",
+                "noFollow": true,
+                "tagTitle": "MOTOROLA",
+                "text": "MOTOROLA"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-skullcandy": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/skullcandy?_q=skullcandy&map=ft",
+                "noFollow": true,
+                "tagTitle": "SKULLCANDY",
+                "text": "SKULLCANDY"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-panasonic": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/panasonic?_q=panasonic&map=ft",
+                "noFollow": true,
+                "tagTitle": "PANASONIC",
+                "text": "PANASONIC"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-altec": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/altec?_q=altec&map=ft",
+                "noFollow": true,
+                "tagTitle": "ALTEC LANSING",
+                "text": "ALTEC LANSING"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-bose": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bose?_q=bose&map=ft",
+                "noFollow": true,
+                "tagTitle": "BOSE",
+                "text": "BOSE"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-sennheiser": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sennheiser?_q=sennheiser&map=ft",
+                "noFollow": true,
+                "tagTitle": "SENNHEISER",
+                "text": "SENNHEISER"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-coolbox": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/coolbox?_q=coolbox&map=ft",
+                "noFollow": true,
+                "tagTitle": "COOLBOX",
+                "text": "COOLBOX"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-blacksheep": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/blacksheep?_q=blacksheep&map=ft",
+                "noFollow": true,
+                "tagTitle": "BLACKSHEEP",
+                "text": "BLACKSHEEP"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-xiaomi": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/xiaomi?_q=xiaomi&map=ft",
+                "noFollow": true,
+                "tagTitle": "XIAOMI",
+                "text": "XIAOMI"
+            }
+        }
+    },
+    "menu-item#col-item-mascotas-marcas-izuum": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/izuum?_q=izuum&map=ft",
+                "noFollow": true,
+                "tagTitle": "IZUUM",
+                "text": "IZUUM"
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-mascotas": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-mascotas",
+            "flex-layout.row#menu-mascotas"
+        ]
+    },
+
+    "flex-layout.row#menu-mascotas": {
+        "children": [
+            "flex-layout.col#mascotas-col1",
+            "flex-layout.col#mascotas-col2",
+            "flex-layout.col#mascotas-col3"
+        ]
+    },
+    "rich-text#title-departamento-mascotas": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Mascotas](/mascotas)"
+        }
+    },
+    "flex-layout.col#mascotas-col1": {
+        "children": ["vtex.menu@2.x:menu#mascotas-col1"]
+    },
+    "flex-layout.col#mascotas-col2": {
+        "children": ["vtex.menu@2.x:menu#mascotas-col2"]
+    },
+    "flex-layout.col#mascotas-col3": {
+        "children": ["vtex.menu@2.x:menu#mascotas-col3"]
+    }
+}

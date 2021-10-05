@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-papeleria-y-jugueteria": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-papeleria-y-jugueteria",
+            "flex-layout.row#menu-papeleria-y-jugueteria"
+        ]
+    },
+
+    "flex-layout.row#menu-papeleria-y-jugueteria": {
+        "children": [
+            "flex-layout.col#papeleria-y-jugueteria-col1",
+            "flex-layout.col#papeleria-y-jugueteria-col2",
+            "flex-layout.col#papeleria-y-jugueteria-col3"
+        ]
+    },
+    "rich-text#title-departamento-papeleria-y-jugueteria": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Papeleria y jugueteria](/papeleria-y-juguete)"
+        }
+    },
+    "flex-layout.col#papeleria-y-jugueteria-col1": {
+        "children": ["vtex.menu@2.x:menu#papeleria-y-jugueteria-col1"]
+    },
+    "flex-layout.col#papeleria-y-jugueteria-col2": {
+        "children": ["vtex.menu@2.x:menu#papeleria-y-jugueteria-col2"]
+    },
+    "flex-layout.col#papeleria-y-jugueteria-col3": {
+        "children": ["vtex.menu@2.x:menu#papeleria-y-jugueteria-col3"]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "vtex.menu@2.x:menu#limpieza-y-hogar-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-fibras",
+            "menu-item#col-title-insecticidas",
+            "menu-item#col-title-jabones-limpieza",
+            "menu-item#col-title-limpiadores",
+            "menu-item#col-title-papel-higienico",
+            "menu-item#col-title-servilletas",
+            "menu-item#col-title-suavizantes",
+            "menu-item#col-title-toallas-de-rollo"
+        ]
+    }
+}

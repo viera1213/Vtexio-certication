@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-cocina-pronto": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-cocina-pronto",
+            "flex-layout.row#menu-cocina-pronto"
+        ]
+    },
+
+    "flex-layout.row#menu-cocina-pronto": {
+        "children": [
+            "flex-layout.col#cocina-pronto-col1",
+            "flex-layout.col#cocina-pronto-col2",
+            "flex-layout.col#cocina-pronto-col3"
+        ]
+    },
+    "rich-text#title-departamento-cocina-pronto": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Cocina pronto](/cocina-pronto)"
+        }
+    },
+    "flex-layout.col#cocina-pronto-col1": {
+        "children": ["vtex.menu@2.x:menu#cocina-pronto-col1"]
+    },
+    "flex-layout.col#cocina-pronto-col2": {
+        "children": ["vtex.menu@2.x:menu#cocina-pronto-col2"]
+    },
+    "flex-layout.col#cocina-pronto-col3": {
+        "children": ["vtex.menu@2.x:menu#cocina-pronto-col3"]
+    }
+}

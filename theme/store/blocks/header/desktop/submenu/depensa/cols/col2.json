@@ -1,0 +1,19 @@
+{
+    "vtex.menu@2.x:menu#despensa-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-flan-y-gelatina",
+            "menu-item#col-title-galletas",
+            "menu-item#col-title-granos",
+            "menu-item#col-title-harinas",
+            "menu-item#col-title-mieles",
+            "menu-item#col-title-pan",
+            "menu-item#col-title-postres-y-reposteria",
+            "menu-item#col-title-salsas-y-aderezos",
+            "menu-item#col-title-sopas-y-pastas",
+            "menu-item#col-title-tostadas-y-tortillas"
+        ]
+    }
+}

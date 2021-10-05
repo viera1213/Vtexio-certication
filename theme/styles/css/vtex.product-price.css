@@ -1,0 +1,13 @@
+.listPrice {
+    font-weight: bold;
+}
+
+.sellingPrice {
+    font-weight: bold;
+    color: gray;
+}
+
+.savings {
+    font-weight: bold;
+    color: red;
+}

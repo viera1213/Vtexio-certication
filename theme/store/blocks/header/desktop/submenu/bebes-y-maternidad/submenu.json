@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-bebes-y-maternidad": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-bebes-y-maternidad",
+            "flex-layout.row#menu-bebes-y-maternidad"
+        ]
+    },
+
+    "flex-layout.row#menu-bebes-y-maternidad": {
+        "children": [
+            "flex-layout.col#bebes-y-maternidad-col1",
+            "flex-layout.col#bebes-y-maternidad-col2",
+            "flex-layout.col#bebes-y-maternidad-col3"
+        ]
+    },
+    "rich-text#title-departamento-bebes-y-maternidad": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Bebes y maternidad](/bebes-y-maternidad)"
+        }
+    },
+    "flex-layout.col#bebes-y-maternidad-col1": {
+        "children": ["vtex.menu@2.x:menu#bebes-y-maternidad-col1"]
+    },
+    "flex-layout.col#bebes-y-maternidad-col2": {
+        "children": ["vtex.menu@2.x:menu#bebes-y-maternidad-col2"]
+    },
+    "flex-layout.col#bebes-y-maternidad-col3": {
+        "children": ["vtex.menu@2.x:menu#bebes-y-maternidad-col3"]
+    }
+}

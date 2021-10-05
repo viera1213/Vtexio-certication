@@ -1,0 +1,198 @@
+{
+    "vtex.menu@2.x:menu#frutas-y-verduras-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-berries",
+            "menu-item#col-title-citricos",
+            "menu-item#col-title-desinfectantes",
+            "menu-item#col-title-especialidad-verduras",
+            "menu-item#col-title-fruta",
+            "menu-item#col-title-manzanas",
+            "menu-item#col-title-melon-y-sandia"
+        ]
+    },
+    "menu-item#col-title-berries": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/berries",
+                "noFollow": true,
+                "tagTitle": "Berries",
+                "text": "Berries"
+            }
+        }
+    },
+    "menu-item#col-title-citricos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/citricos",
+                "noFollow": true,
+                "tagTitle": "Citricos",
+                "text": "Citricos"
+            }
+        }
+    },
+    "menu-item#col-title-desinfectantes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/desinfectantes",
+                "noFollow": true,
+                "tagTitle": "Desinfectantes",
+                "text": "Desinfectantes"
+            }
+        }
+    },
+    "menu-item#col-title-especialidad-verduras": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/especialidad-verduras",
+                "noFollow": true,
+                "tagTitle": "Especialidad verduras",
+                "text": "Especialidad verduras"
+            }
+        }
+    },
+    "menu-item#col-title-fruta": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/fruta",
+                "noFollow": true,
+                "tagTitle": "Fruta",
+                "text": "Fruta"
+            }
+        }
+    },
+    "menu-item#col-title-manzanas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/manzanas",
+                "noFollow": true,
+                "tagTitle": "Manzanas",
+                "text": "Manzanas"
+            }
+        }
+    },
+    "menu-item#col-title-melon-y-sandia": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/melon-y-sandia",
+                "noFollow": true,
+                "tagTitle": "Melon y sandia",
+                "text": "Melon y sandia"
+            }
+        }
+    },
+    "menu-item#col-title-peras": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/peras",
+                "noFollow": true,
+                "tagTitle": "Peras",
+                "text": "Peras"
+            }
+        }
+    },
+    "menu-item#col-title-procesados": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/procesados",
+                "noFollow": true,
+                "tagTitle": "Procesados",
+                "text": "Procesados"
+            }
+        }
+    },
+    "menu-item#col-title-temporada": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/temporada",
+                "noFollow": true,
+                "tagTitle": "Temporada",
+                "text": "Temporada"
+            }
+        }
+    },
+    "menu-item#col-title-tropical": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/tropical",
+                "noFollow": true,
+                "tagTitle": "Tropical",
+                "text": "Tropical"
+            }
+        }
+    },
+    "menu-item#col-title-vegetales": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/vegetales",
+                "noFollow": true,
+                "tagTitle": "Vegetales",
+                "text": "Vegetales"
+            }
+        }
+    },
+    "menu-item#col-title-verdura": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/frutas-y-verduras/verdura",
+                "noFollow": true,
+                "tagTitle": "Verdura",
+                "text": "Verdura"
+            }
+        }
+    }
+}

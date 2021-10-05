@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-ferreteria-y-automotriz": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-ferreteria-y-automotriz",
+            "flex-layout.row#menu-ferreteria-y-automotriz"
+        ]
+    },
+
+    "flex-layout.row#menu-ferreteria-y-automotriz": {
+        "children": [
+            "flex-layout.col#ferreteria-y-automotriz-col1",
+            "flex-layout.col#ferreteria-y-automotriz-col2",
+            "flex-layout.col#ferreteria-y-automotriz-col3"
+        ]
+    },
+    "rich-text#title-departamento-ferreteria-y-automotriz": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Ferreteria y automotriz](/ferreteria-y-automotriz)"
+        }
+    },
+    "flex-layout.col#ferreteria-y-automotriz-col1": {
+        "children": ["vtex.menu@2.x:menu#ferreteria-y-automotriz-col1"]
+    },
+    "flex-layout.col#ferreteria-y-automotriz-col2": {
+        "children": ["vtex.menu@2.x:menu#ferreteria-y-automotriz-col2"]
+    },
+    "flex-layout.col#ferreteria-y-automotriz-col3": {
+        "children": ["vtex.menu@2.x:menu#ferreteria-y-automotriz-col3"]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-cerveza-vinos-y-licores": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-cerveza-vinos-y-licores",
+            "flex-layout.row#menu-cerveza-vinos-y-licores"
+        ]
+    },
+
+    "flex-layout.row#menu-cerveza-vinos-y-licores": {
+        "children": [
+            "flex-layout.col#cerveza-vinos-y-licores-col1",
+            "flex-layout.col#cerveza-vinos-y-licores-col2",
+            "flex-layout.col#cerveza-vinos-y-licores-col3"
+        ]
+    },
+    "rich-text#title-departamento-cerveza-vinos-y-licores": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Cerveza, vinos y licores](/cerveza-vinos-y-licores)"
+        }
+    },
+    "flex-layout.col#cerveza-vinos-y-licores-col1": {
+        "children": ["vtex.menu@2.x:menu#cerveza-vinos-y-licores-col1"]
+    },
+    "flex-layout.col#cerveza-vinos-y-licores-col2": {
+        "children": ["vtex.menu@2.x:menu#cerveza-vinos-y-licores-col2"]
+    },
+    "flex-layout.col#cerveza-vinos-y-licores-col3": {
+        "children": ["vtex.menu@2.x:menu#cerveza-vinos-y-licores-col3"]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-bebidas-y-jugos": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-bebidas-y-jugos",
+            "flex-layout.row#menu-bebidas-y-jugos"
+        ]
+    },
+
+    "flex-layout.row#menu-bebidas-y-jugos": {
+        "children": [
+            "flex-layout.col#bebidas-y-jugos-col1",
+            "flex-layout.col#bebidas-y-jugos-col2",
+            "flex-layout.col#bebidas-y-jugos-col3"
+        ]
+    },
+    "rich-text#title-departamento-bebidas-y-jugos": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Bebidas y jugos](/bebidas-y-jugos)"
+        }
+    },
+    "flex-layout.col#bebidas-y-jugos-col1": {
+        "children": ["vtex.menu@2.x:menu#bebidas-y-jugos-col1"]
+    },
+    "flex-layout.col#bebidas-y-jugos-col2": {
+        "children": ["vtex.menu@2.x:menu#bebidas-y-jugos-col2"]
+    },
+    "flex-layout.col#bebidas-y-jugos-col3": {
+        "children": ["vtex.menu@2.x:menu#bebidas-y-jugos-col3"]
+    }
+}

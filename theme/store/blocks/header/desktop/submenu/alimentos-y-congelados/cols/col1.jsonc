@@ -1,0 +1,180 @@
+{
+    "vtex.menu@2.x:menu#alimentos-y-congelados-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-carnes",
+            "menu-item#col-item-carnes-1",
+            "menu-item#col-item-carnes-2",
+            "menu-item#col-item-carnes-3",
+            "menu-item#col-title-comidas",
+            "menu-item#col-item-comidas-1",
+            "menu-item#col-item-comidas-2",
+            "menu-item#col-item-comidas-3",
+            "menu-item#col-title-hielos",
+            "menu-item#col-item-hielos-1",
+            "menu-item#col-item-hielos-2",
+            "menu-item#col-item-hielos-3"
+        ]
+    },
+    "menu-item#col-title-carnes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/carnes",
+                "noFollow": true,
+                "tagTitle": "Carnes",
+                "text": "Carnes"
+            }
+        }
+    },
+    "menu-item#col-item-carnes-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/carnes",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-carnes-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/carnes",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-carnes-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/carnes",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-comidas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/comidas",
+                "noFollow": true,
+                "tagTitle": "Comidas",
+                "text": "Comidas"
+            }
+        }
+    },
+    "menu-item#col-item-comidas-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/comidas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-comidas-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/comidas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-comidas-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/comidas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-hielos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/hielo",
+                "noFollow": true,
+                "tagTitle": "Hielos",
+                "text": "Hielos"
+            }
+        }
+    },
+    "menu-item#col-item-hielos-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/hielo",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-hielos-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/hielo",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-hielos-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados/hielo",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

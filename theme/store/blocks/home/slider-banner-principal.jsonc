@@ -1,0 +1,46 @@
+{
+    "list-context.image-list#banner-principal": {
+        "children": ["slider-layout#banner-principal"],
+        "props": {
+            "height": 600,
+            "images": [
+                {
+                    "image": "/arquivos/banner-home-desktop.png",
+                    "mobileImage": "/arquivos/banner-home-mobile.png",
+                    "description": "Banner Principal",
+                    "link": {
+                        "default": "/sellers",
+                        "title": "Link",
+                        "url": "/sellers"
+                    }
+                },
+                {
+                    "image": "/arquivos/banner-home-desktop.png",
+                    "mobileImage": "/arquivos/banner-home-mobile.png",
+                    "description": "Banner Principal",
+                    "link": {
+                        "default": "/sellers",
+                        "title": "Link",
+                        "url": "/sellers"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-principal": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never"
+        }
+    }
+}

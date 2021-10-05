@@ -1,0 +1,206 @@
+{
+    "vtex.menu@2.x:menu#bebes-y-maternidad-col3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-bebes-y-maternidad-marcas",
+            "menu-item#col-item-bebes-y-maternidad-marcas-decibel",
+            "menu-item#col-item-bebes-y-maternidad-marcas-sony",
+            "menu-item#col-item-bebes-y-maternidad-marcas-jbl",
+            "menu-item#col-item-bebes-y-maternidad-marcas-motorola",
+            "menu-item#col-item-bebes-y-maternidad-marcas-skullcandy",
+            "menu-item#col-item-bebes-y-maternidad-marcas-panasonic",
+            "menu-item#col-item-bebes-y-maternidad-marcas-altec",
+            "menu-item#col-item-bebes-y-maternidad-marcas-bose",
+            "menu-item#col-item-bebes-y-maternidad-marcas-sennheiser",
+            "menu-item#col-item-bebes-y-maternidad-marcas-coolbox",
+            "menu-item#col-item-bebes-y-maternidad-marcas-blacksheep",
+            "menu-item#col-item-bebes-y-maternidad-marcas-xiaomi",
+            "menu-item#col-item-bebes-y-maternidad-marcas-izuum"
+        ]
+    },
+    "menu-item#col-title-bebes-y-maternidad-marcas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "MARCAS",
+                "text": "MARCAS"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-decibel": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/decibel?_q=decibel&map=ft",
+                "noFollow": true,
+                "tagTitle": "DECIBEL",
+                "text": "DECIBEL"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-sony": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sony?_q=sony&map=ft",
+                "noFollow": true,
+                "tagTitle": "SONY",
+                "text": "SONY"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-jbl": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jbl?_q=jbl&map=ft",
+                "noFollow": true,
+                "tagTitle": "JBL",
+                "text": "JBL"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-motorola": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/motorola?_q=motorola&map=ft",
+                "noFollow": true,
+                "tagTitle": "MOTOROLA",
+                "text": "MOTOROLA"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-skullcandy": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/skullcandy?_q=skullcandy&map=ft",
+                "noFollow": true,
+                "tagTitle": "SKULLCANDY",
+                "text": "SKULLCANDY"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-panasonic": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/panasonic?_q=panasonic&map=ft",
+                "noFollow": true,
+                "tagTitle": "PANASONIC",
+                "text": "PANASONIC"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-altec": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/altec?_q=altec&map=ft",
+                "noFollow": true,
+                "tagTitle": "ALTEC LANSING",
+                "text": "ALTEC LANSING"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-bose": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bose?_q=bose&map=ft",
+                "noFollow": true,
+                "tagTitle": "BOSE",
+                "text": "BOSE"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-sennheiser": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sennheiser?_q=sennheiser&map=ft",
+                "noFollow": true,
+                "tagTitle": "SENNHEISER",
+                "text": "SENNHEISER"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-coolbox": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/coolbox?_q=coolbox&map=ft",
+                "noFollow": true,
+                "tagTitle": "COOLBOX",
+                "text": "COOLBOX"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-blacksheep": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/blacksheep?_q=blacksheep&map=ft",
+                "noFollow": true,
+                "tagTitle": "BLACKSHEEP",
+                "text": "BLACKSHEEP"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-xiaomi": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/xiaomi?_q=xiaomi&map=ft",
+                "noFollow": true,
+                "tagTitle": "XIAOMI",
+                "text": "XIAOMI"
+            }
+        }
+    },
+    "menu-item#col-item-bebes-y-maternidad-marcas-izuum": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/izuum?_q=izuum&map=ft",
+                "noFollow": true,
+                "tagTitle": "IZUUM",
+                "text": "IZUUM"
+            }
+        }
+    }
+}

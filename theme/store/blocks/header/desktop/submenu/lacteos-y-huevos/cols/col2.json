@@ -1,0 +1,8 @@
+{
+    "vtex.menu@2.x:menu#lacteos-y-huevos-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": []
+    }
+}

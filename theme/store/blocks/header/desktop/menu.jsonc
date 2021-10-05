@@ -1,0 +1,471 @@
+{
+    "vtex.menu@2.x:menu#menu-desktop-3": {
+        "children": ["menu-item#deseos", "menu-item#contactanos"]
+    },
+    "menu-item#deseos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/wishlist",
+                "noFollow": false,
+                "tagTitle": "Deseos",
+                "text": "Deseos"
+            }
+        }
+    },
+    "menu-item#contactanos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Contáctanos",
+                "text": "Contáctanos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#contactanos"]
+    },
+    "vtex.menu@2.x:submenu#contactanos": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#atencion-al-cliente",
+            "flex-layout.row#fonocompras",
+            "flex-layout.row#ventas-corporativas"
+        ]
+    },
+    "flex-layout.row#atencion-al-cliente": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": ["rich-text#atencion-al-cliente"]
+    },
+    "rich-text#atencion-al-cliente": {
+        "props": {
+            "font": "t-mini",
+            "text": "**Atencion al cliente**\ncorreo@dominio.com"
+        }
+    },
+    "flex-layout.row#ventas-corporativas": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": ["rich-text#ventas-corporativas"]
+    },
+    "rich-text#ventas-corporativas": {
+        "props": {
+            "font": "t-mini",
+            "text": "**Ventas coorporativas**\n+6910810\n+5362367"
+        }
+    },
+    "flex-layout.row#fonocompras": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": ["rich-text#fonocompras"]
+    },
+    "rich-text#fonocompras": {
+        "props": {
+            "font": "t-mini",
+            "text": "**Fonocompras**\n+6910810\n+5362367"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-desktop": {
+        "props": {
+            "experimentalOptimizeRendering": true
+        },
+        "children": [
+            "menu-item#departamentos",
+            "menu-item#buen-fin",
+            "menu-item#chedrauilandia",
+            "menu-item#colecciones-navideñas",
+            "menu-item#nuestras-marcas"
+        ]
+    },
+    "menu-item#departamentos": {
+        "props": {
+            "type": "custom",
+            "iconId": "arrow-back",
+            "highlight": false,
+            "blockClass": ["item-departamentos"],
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Departamentos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamentos"]
+    },
+    "vtex.menu@2.x:submenu#departamentos": {
+        "props": {
+            "width": "80%",
+            "blockClass": ["departamentos"]
+        },
+        "children": ["flex-layout.row#submenu-departamentos"]
+    },
+    "flex-layout.row#submenu-departamentos": {
+        "children": ["flex-layout.col#submenu-departamentos"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-departamentos": {
+        "children": ["vtex.menu@2.x:menu#col-departamentos"],
+        "props": {
+            "blockClass": ["menu-escritorio"]
+        }
+    },
+    "vtex.menu@2.x:menu#col-departamentos": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#title-departamento",
+            "menu-item#departamento-alimentos-congelados",
+            "menu-item#departamento-bebes-y-maternidad",
+            "menu-item#departamento-bebidas-y-jugos",
+            "menu-item#departamento-carnes-pescados-y-mariscos",
+            "menu-item#departamento-cerveza-vinos-y-licores",
+            "menu-item#departamento-cocina-pronto",
+            "menu-item#departamento-cuidado-personal-y-bellesa",
+            "menu-item#departamento-despensa",
+            "menu-item#departamento-dulces",
+            "menu-item#departamento-farmacia",
+            "menu-item#departamento-ferreteria-y-automotriz",
+            "menu-item#departamento-frutas-y-verduras",
+            "menu-item#departamento-gourmet",
+            "menu-item#departamento-lacteos-y-huevos",
+            "menu-item#departamento-limpieza-y-hogar",
+            "menu-item#departamento-mascotas",
+            "menu-item#departamento-papeleria-y-jugueteria",
+            "menu-item#departamento-salchichoneria"
+        ]
+    },
+    "menu-item#title-departamento": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Departamentos",
+                "text": "Departamentos"
+            }
+        }
+    },
+    "menu-item#departamento-alimentos-congelados": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/alimentos-congelados",
+                "noFollow": true,
+                "tagTitle": "Alimentos congelados",
+                "text": "Alimentos congelados"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-alimentos-y-congelados"]
+    },
+    "menu-item#departamento-bebes-y-maternidad": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad",
+                "noFollow": true,
+                "tagTitle": "Bebes y maternidad",
+                "text": "Bebes y maternidad"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-bebes-y-maternidad"]
+    },
+    "menu-item#departamento-cocina-pronto": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/laptops-monitores-y-tablets",
+                "noFollow": true,
+                "tagTitle": "Cocina pronto",
+                "text": "Cocina pronto"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-cocina-pronto"]
+    },
+    "menu-item#departamento-cuidado-personal-y-bellesa": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa",
+                "noFollow": true,
+                "tagTitle": "Cuidado personal y bellesa",
+                "text": "Cuidado personal y bellesa"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-cuidado-personal-y-bellesa"]
+    },
+    "menu-item#departamento-bebidas-y-jugos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos",
+                "noFollow": true,
+                "tagTitle": "Bebidas y jugos",
+                "text": "Bebidas y jugos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-bebidas-y-jugos"]
+    },
+    "menu-item#departamento-frutas-y-verduras": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/video-y-fotografia",
+                "noFollow": true,
+                "tagTitle": "Futas y verduras",
+                "text": "Frutas y verduras"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-frutas-y-verduras"]
+    },
+    "menu-item#departamento-despensa": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hogar---cuidado-personal",
+                "noFollow": true,
+                "tagTitle": "Despensa",
+                "text": "Despensa"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-despensa"]
+    },
+    "menu-item#departamento-gourmet": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/gourmet",
+                "noFollow": true,
+                "tagTitle": "Gourmet",
+                "text": "Gourmet"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-gourmet"]
+    },
+    "menu-item#departamento-lacteos-y-huevos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos",
+                "noFollow": true,
+                "tagTitle": "Lacteos y huevos",
+                "text": "Lacteos y huevos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-lacteos-y-huevos"]
+    },
+    "menu-item#departamento-carnes-pescados-y-mariscos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos",
+                "noFollow": true,
+                "tagTitle": "Carnes, pescados y mariscos",
+                "text": "Carnes, pescados y mariscos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-carnes-pescados-y-mariscos"]
+    },
+    "menu-item#departamento-cerveza-vinos-y-licores": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores",
+                "noFollow": true,
+                "tagTitle": "Cerveza, vinos y licores",
+                "text": "Cerveza, vinos y licores"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-cerveza-vinos-y-licores"]
+    },
+    "menu-item#departamento-dulces": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/dulces",
+                "noFollow": true,
+                "tagTitle": "Dulces",
+                "text": "Dulces"
+            }
+        },
+        "blocks": [
+            //"vtex.menu@2.x:submenu#dulces"
+        ]
+    },
+    "menu-item#departamento-farmacia": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/farmacia",
+                "noFollow": true,
+                "tagTitle": "Farmacia",
+                "text": "Farmacia"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-farmacia"]
+    },
+    "menu-item#departamento-ferreteria-y-automotriz": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/pilas-y-baterias",
+                "noFollow": true,
+                "tagTitle": "Ferreteria y automotriz",
+                "text": "Ferreteria y automotriz"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-ferreteria-y-automotriz"]
+    },
+    "menu-item#departamento-limpieza-y-hogar": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar",
+                "noFollow": true,
+                "tagTitle": "Limpieza y hogar",
+                "text": "Limpieza y hogar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-limpieza-y-hogar"]
+    },
+    "menu-item#departamento-mascotas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mascotas",
+                "noFollow": true,
+                "tagTitle": "Mascotas",
+                "text": "Mascotas"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-mascotas"]
+    },
+    "menu-item#departamento-papeleria-y-jugueteria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/papeleria-y-juguete",
+                "noFollow": true,
+                "tagTitle": "Papeleria y jugueteria",
+                "text": "Papeleria y jugueteria"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-papeleria-y-jugueteria"]
+    },
+    "menu-item#departamento-salchichoneria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria",
+                "noFollow": true,
+                "tagTitle": "Salchichoneria",
+                "text": "Salchichoneria"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#submenu-salchichoneria"]
+    },
+    "menu-item#chedrauilandia": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Chedrauilandia"
+            }
+        }
+    },
+    "menu-item#colecciones-navideñas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tecnologia",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Colecciones navideñas"
+            }
+        }
+    },
+    "menu-item#nuestras-marcas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrohogar",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Nuestras marcas"
+            }
+        }
+    },
+    "menu-item#buen-fin": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tiendas-oficiales",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Buen fin"
+            }
+        }
+    }
+}

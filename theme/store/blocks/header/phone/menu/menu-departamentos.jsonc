@@ -1,0 +1,18 @@
+{
+    "menu#menu-departamentos": {
+        "children": [
+            "rich-text#title-mobile-departamentos",
+            "flex-layout.row#item-menu-category-audio"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-category1"
+        }
+    },
+    "rich-text#title-mobile-departamentos": {
+        "props": {
+            "text": "Departamentos",
+            "blockClass": ["title-categoria", "icon-image"]
+        }
+    }
+}

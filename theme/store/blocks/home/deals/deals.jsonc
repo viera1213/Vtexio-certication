@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#deals": {
+        "children": ["slider-layout#deals"]
+    },
+    "slider-layout#deals": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "flex-layout.col#deals-1",
+            "flex-layout.col#deals-2",
+            "flex-layout.col#deals-3",
+            "flex-layout.col#deals-4"
+        ]
+    }
+}

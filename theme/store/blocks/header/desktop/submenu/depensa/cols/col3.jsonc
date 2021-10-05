@@ -1,0 +1,206 @@
+{
+    "vtex.menu@2.x:menu#despensa-col3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-despensa-marcas",
+            "menu-item#col-item-despensa-marcas-decibel",
+            "menu-item#col-item-despensa-marcas-sony",
+            "menu-item#col-item-despensa-marcas-jbl",
+            "menu-item#col-item-despensa-marcas-motorola",
+            "menu-item#col-item-despensa-marcas-skullcandy",
+            "menu-item#col-item-despensa-marcas-panasonic",
+            "menu-item#col-item-despensa-marcas-altec",
+            "menu-item#col-item-despensa-marcas-bose",
+            "menu-item#col-item-despensa-marcas-sennheiser",
+            "menu-item#col-item-despensa-marcas-coolbox",
+            "menu-item#col-item-despensa-marcas-blacksheep",
+            "menu-item#col-item-despensa-marcas-xiaomi",
+            "menu-item#col-item-despensa-marcas-izuum"
+        ]
+    },
+    "menu-item#col-title-despensa-marcas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "MARCAS",
+                "text": "MARCAS"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-decibel": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/decibel?_q=decibel&map=ft",
+                "noFollow": true,
+                "tagTitle": "DECIBEL",
+                "text": "DECIBEL"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-sony": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sony?_q=sony&map=ft",
+                "noFollow": true,
+                "tagTitle": "SONY",
+                "text": "SONY"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-jbl": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jbl?_q=jbl&map=ft",
+                "noFollow": true,
+                "tagTitle": "JBL",
+                "text": "JBL"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-motorola": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/motorola?_q=motorola&map=ft",
+                "noFollow": true,
+                "tagTitle": "MOTOROLA",
+                "text": "MOTOROLA"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-skullcandy": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/skullcandy?_q=skullcandy&map=ft",
+                "noFollow": true,
+                "tagTitle": "SKULLCANDY",
+                "text": "SKULLCANDY"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-panasonic": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/panasonic?_q=panasonic&map=ft",
+                "noFollow": true,
+                "tagTitle": "PANASONIC",
+                "text": "PANASONIC"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-altec": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/altec?_q=altec&map=ft",
+                "noFollow": true,
+                "tagTitle": "ALTEC LANSING",
+                "text": "ALTEC LANSING"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-bose": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bose?_q=bose&map=ft",
+                "noFollow": true,
+                "tagTitle": "BOSE",
+                "text": "BOSE"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-sennheiser": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sennheiser?_q=sennheiser&map=ft",
+                "noFollow": true,
+                "tagTitle": "SENNHEISER",
+                "text": "SENNHEISER"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-coolbox": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/coolbox?_q=coolbox&map=ft",
+                "noFollow": true,
+                "tagTitle": "COOLBOX",
+                "text": "COOLBOX"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-blacksheep": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/blacksheep?_q=blacksheep&map=ft",
+                "noFollow": true,
+                "tagTitle": "BLACKSHEEP",
+                "text": "BLACKSHEEP"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-xiaomi": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/xiaomi?_q=xiaomi&map=ft",
+                "noFollow": true,
+                "tagTitle": "XIAOMI",
+                "text": "XIAOMI"
+            }
+        }
+    },
+    "menu-item#col-item-despensa-marcas-izuum": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/izuum?_q=izuum&map=ft",
+                "noFollow": true,
+                "tagTitle": "IZUUM",
+                "text": "IZUUM"
+            }
+        }
+    }
+}

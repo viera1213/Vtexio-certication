@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#deals-2": {
+        "children": ["flex-layout.row#deal-2-content"]
+    },
+    "flex-layout.row#deal-2-content": {
+        "children": [
+            "flex-layout.col#deals-2-section-1",
+            "flex-layout.col#deals-2-section-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#deals-2-section-1": {
+        "children": ["image#deal-2"],
+        "props": {
+            "width": "20%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#deals-2-section-2": {
+        "children": ["rich-text#deal-2"],
+        "props": {
+            "width": "80%"
+        }
+    },
+    "image#deal-2": {
+        "props": {
+            "src": "/arquivos/deal-2.png",
+            "maxHeight": "35px",
+            "maxWidth": "35px"
+        }
+    },
+    "rich-text#deal-2": {
+        "props": {
+            "text": "**RETIRO EN TIENDA**\nCompra y retira en Tienda **GRATIS**"
+        }
+    }
+}

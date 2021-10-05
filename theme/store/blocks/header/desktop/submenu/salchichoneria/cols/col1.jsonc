@@ -1,0 +1,114 @@
+{
+    "vtex.menu@2.x:menu#salchichoneria-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-chorizo",
+            "menu-item#col-title-jamones",
+            "menu-item#col-title-mortadelas",
+            "menu-item#col-title-salamis",
+            "menu-item#col-title-salchichas",
+            "menu-item#col-title-salchichoneria",
+            "menu-item#col-title-tocino"
+        ]
+    },
+    "menu-item#col-title-chorizo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/chorizo",
+                "noFollow": true,
+                "tagTitle": "Chorizo",
+                "text": "Chorizo"
+            }
+        }
+    },
+    "menu-item#col-title-jamones": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/jamones",
+                "noFollow": true,
+                "tagTitle": "Jamoness",
+                "text": "Jamoness"
+            }
+        }
+    },
+    "menu-item#col-title-mortadelas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/mortadelas",
+                "noFollow": true,
+                "tagTitle": "Mortadelas",
+                "text": "Mortadelas"
+            }
+        }
+    },
+    "menu-item#col-title-salamis": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/salamis",
+                "noFollow": true,
+                "tagTitle": "Salamis",
+                "text": "Salamis"
+            }
+        }
+    },
+    "menu-item#col-title-salchichas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/salchichas",
+                "noFollow": true,
+                "tagTitle": "Salchichas",
+                "text": "Salchichas"
+            }
+        }
+    },
+    "menu-item#col-title-salchichoneria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/salchichoneria",
+                "noFollow": true,
+                "tagTitle": "Salchichoneria",
+                "text": "Salchichoneria"
+            }
+        }
+    },
+    "menu-item#col-title-tocino": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/salchichoneria/tocino",
+                "noFollow": true,
+                "tagTitle": "Tocino",
+                "text": "Tocino"
+            }
+        }
+    }
+}

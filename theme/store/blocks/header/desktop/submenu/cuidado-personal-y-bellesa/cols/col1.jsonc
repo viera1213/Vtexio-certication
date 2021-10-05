@@ -1,0 +1,197 @@
+{
+    "vtex.menu@2.x:menu#cuidado-personal-y-bellesa-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-articulos-de-viaje",
+            "menu-item#col-title-body-shop",
+            "menu-item#col-title-caballeros",
+            "menu-item#col-title-cosmeticos",
+            "menu-item#col-title-cremas",
+            "menu-item#col-title-cuidado-bucal"
+        ]
+    },
+    "menu-item#col-title-articulos-de-viaje": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/articulos-de-viaje",
+                "noFollow": true,
+                "tagTitle": "Articulos de viaje",
+                "text": "Articulos de viaje"
+            }
+        }
+    },
+    "menu-item#col-title-body-shop": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/body-shop",
+                "noFollow": true,
+                "tagTitle": "Body shop",
+                "text": "Body shop"
+            }
+        }
+    },
+    "menu-item#col-title-caballeros": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/caballeros",
+                "noFollow": true,
+                "tagTitle": "Caballeros",
+                "text": "Caballeros"
+            }
+        }
+    },
+    "menu-item#col-title-cosmeticos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/cosmeticos",
+                "noFollow": true,
+                "tagTitle": "Cosmeticos",
+                "text": "Cosmeticos"
+            }
+        }
+    },
+    "menu-item#col-title-cremas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/cremas",
+                "noFollow": true,
+                "tagTitle": "Cremas",
+                "text": "Cremas"
+            }
+        }
+    },
+    "menu-item#col-title-cuidado-bucal": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/cuidado-bucal",
+                "noFollow": true,
+                "tagTitle": "Cuidado bucal",
+                "text": "Cuidado bucal"
+            }
+        }
+    },
+    "menu-item#col-title-cuidado-cabello": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/cuidado-cabello",
+                "noFollow": true,
+                "tagTitle": "Cuidado cabello",
+                "text": "Cuidado cabello"
+            }
+        }
+    },
+    "menu-item#col-title-desodorantes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/desodorantes",
+                "noFollow": true,
+                "tagTitle": "Desodorantes",
+                "text": "Desodorantes"
+            }
+        }
+    },
+    "menu-item#col-title-jabones": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/jabones",
+                "noFollow": true,
+                "tagTitle": "Jabones",
+                "text": "Jabones"
+            }
+        }
+    },
+    "menu-item#col-title-naturales": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/naturales",
+                "noFollow": true,
+                "tagTitle": "Naturales",
+                "text": "Naturales"
+            }
+        }
+    },
+    "menu-item#col-title-proteccion-femenina": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/proteccion-femenina",
+                "noFollow": true,
+                "tagTitle": "Proteccion femenina",
+                "text": "Proteccion femenina"
+            }
+        }
+    },
+    "menu-item#col-title-shampoos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/shampoos",
+                "noFollow": true,
+                "tagTitle": "Shampoos",
+                "text": "Shampoos"
+            }
+        }
+    },
+    "menu-item#col-title-tintes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cuidado-personal-y-bellesa/tintes",
+                "noFollow": true,
+                "tagTitle": "Tintes",
+                "text": "Tintes"
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "vtex.menu@2.x:menu#cerveza-vinos-y-licores-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-cerveza",
+            "menu-item#col-item-cerveza-1",
+            "menu-item#col-item-cerveza-2",
+            "menu-item#col-item-cerveza-3",
+            "menu-item#col-title-coollers",
+            "menu-item#col-item-coollers-1",
+            "menu-item#col-item-coollers-2",
+            "menu-item#col-item-coollers-3"
+        ]
+    },
+    "menu-item#col-title-cerveza": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/cerveza",
+                "noFollow": true,
+                "tagTitle": "Cerveza",
+                "text": "Cerveza"
+            }
+        }
+    },
+    "menu-item#col-item-cerveza-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/cerveza",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-cerveza-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/cerveza",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-cerveza-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/cerveza",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-coollers": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/coollers",
+                "noFollow": true,
+                "tagTitle": "Coollers",
+                "text": "Coollers"
+            }
+        }
+    },
+    "menu-item#col-item-coollers-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/coollers",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-coollers-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/coollers",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-coollers-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/coollers",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

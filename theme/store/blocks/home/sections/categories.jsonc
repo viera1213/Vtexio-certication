@@ -1,0 +1,258 @@
+{
+    "responsive-layout.desktop#categories-section-home": {
+        "children": [
+            "flex-layout.row#title-categories-section",
+            "flex-layout.row#row-desktop-categories-1",
+            "flex-layout.row#row-desktop-categories-2"
+        ]
+    },
+    "responsive-layout.mobile#categories-section-home": {
+        "children": [
+            "flex-layout.row#title-categories-section",
+            "flex-layout.row#row-mobile-categories-1",
+            "flex-layout.row#row-mobile-categories-2",
+            "flex-layout.row#row-mobile-categories-3",
+            "flex-layout.row#row-mobile-categories-4"
+        ]
+    },
+    "flex-layout.row#title-categories-section": {
+        "children": ["flex-layout.col#home-title-categories-col-1"]
+    },
+    "flex-layout.col#home-title-categories-col-1": {
+        "children": ["rich-text#title-categories-section"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#title-categories-section": {
+        "props": {
+            "text": "**Nuestras categorías**"
+        }
+    },
+    "flex-layout.row#row-desktop-categories-1": {
+        "children": [
+            "flex-layout.col#categories-item-1",
+            "flex-layout.col#categories-item-2",
+            "flex-layout.col#categories-item-3",
+            "flex-layout.col#categories-item-4",
+            "flex-layout.col#categories-item-5",
+            "flex-layout.col#categories-item-6",
+            "flex-layout.col#categories-item-7"
+        ]
+    },
+    "flex-layout.row#row-desktop-categories-2": {
+        "children": [
+            "flex-layout.col#categories-item-8",
+            "flex-layout.col#categories-item-9",
+            "flex-layout.col#categories-item-10",
+            "flex-layout.col#categories-item-11",
+            "flex-layout.col#categories-item-12",
+            "flex-layout.col#categories-item-13",
+            "flex-layout.col#categories-item-14"
+        ]
+    },
+    "flex-layout.row#row-mobile-categories-1": {
+        "children": [
+            "flex-layout.col#categories-item-1",
+            "flex-layout.col#categories-item-2",
+            "flex-layout.col#categories-item-3",
+            "flex-layout.col#categories-item-4"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.row#row-mobile-categories-2": {
+        "children": [
+            "flex-layout.col#categories-item-5",
+            "flex-layout.col#categories-item-6",
+            "flex-layout.col#categories-item-7",
+            "flex-layout.col#categories-item-8"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.row#row-mobile-categories-3": {
+        "children": [
+            "flex-layout.col#categories-item-9",
+            "flex-layout.col#categories-item-10",
+            "flex-layout.col#categories-item-11",
+            "flex-layout.col#categories-item-12"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.row#row-mobile-categories-4": {
+        "children": [
+            "flex-layout.col#categories-item-13",
+            "flex-layout.col#categories-item-14"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#categories-item-1": {
+        "children": ["image#categories-item-1"]
+    },
+    "image#categories-item-1": {
+        "props": {
+            "src": "/arquivos/icon-supermk-cat.png",
+            "link": {
+                "url": "/Supermercado/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-2": {
+        "children": ["image#categories-item-2"]
+    },
+    "image#categories-item-2": {
+        "props": {
+            "src": "/arquivos/icon-tech-cat.png",
+            "link": {
+                "url": "/Tecnologia/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-3": {
+        "children": ["image#categories-item-3"]
+    },
+    "image#categories-item-3": {
+        "props": {
+            "src": "/arquivos/icon-men-fashion-cat.png",
+            "link": {
+                "url": "/Moda-para-hombre/d"
+            }
+        }
+    },
+
+    "flex-layout.col#categories-item-4": {
+        "children": ["image#categories-item-4"]
+    },
+    "image#categories-item-4": {
+        "props": {
+            "src": "/arquivos/icon-women-fashion-cat.png",
+            "link": {
+                "url": "/Moda-para-mujer/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-5": {
+        "children": ["image#categories-item-5"]
+    },
+    "image#categories-item-5": {
+        "props": {
+            "src": "/arquivos/icon-child-fashion-cat.png",
+            "link": {
+                "url": "/Infantil/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-6": {
+        "children": ["image#categories-item-6"]
+    },
+    "image#categories-item-6": {
+        "props": {
+            "src": "/arquivos/icon-healthy-cat.png",
+            "link": {
+                "url": "/Salud/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-7": {
+        "children": ["image#categories-item-7"]
+    },
+    "image#categories-item-7": {
+        "props": {
+            "src": "/arquivos/icon-auto-cat.png",
+            "link": {
+                "url": "/otras-categorias/automotriz"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-8": {
+        "children": ["image#categories-item-8"]
+    },
+    "image#categories-item-8": {
+        "props": {
+            "src": "/arquivos/icon-beauty-cat.png",
+            "link": {
+                "url": "/Belleza/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-9": {
+        "children": ["image#categories-item-9"]
+    },
+    "image#categories-item-9": {
+        "props": {
+            "src": "/arquivos/icon-electrohogar-cat.png",
+            "link": {
+                "url": "/Electrohogar/d"
+            }
+        }
+    },
+
+    "flex-layout.col#categories-item-10": {
+        "children": ["image#categories-item-10"]
+    },
+    "image#categories-item-10": {
+        "props": {
+            "src": "/arquivos/icon-decohogar-cat.png",
+            "link": {
+                "url": "/Deco---Hogar/d"
+            }
+        }
+    },
+
+    "flex-layout.col#categories-item-11": {
+        "children": ["image#categories-item-11"]
+    },
+    "image#categories-item-11": {
+        "props": {
+            "src": "/arquivos/icon-office-cat.png",
+            "link": {
+                "url": "/Oficina---utiles/d"
+            }
+        }
+    },
+
+    "flex-layout.col#categories-item-12": {
+        "children": ["image#categories-item-12"]
+    },
+    "image#categories-item-12": {
+        "props": {
+            "src": "/arquivos/icon-toy-store-cat.png",
+            "link": {
+                "url": "/Juegos-y-Juguetes/d"
+            }
+        }
+    },
+
+    "flex-layout.col#categories-item-13": {
+        "children": ["image#categories-item-13"]
+    },
+    "image#categories-item-13": {
+        "props": {
+            "src": "/arquivos/icon-sports-cat.png",
+            "link": {
+                "url": "/Deportes/d"
+            }
+        }
+    },
+    "flex-layout.col#categories-item-14": {
+        "children": ["image#categories-item-14"]
+    },
+    "image#categories-item-14": {
+        "props": {
+            "src": "/arquivos/icon-pets-cat.png",
+            "link": {
+                "url": "/Mascotas/d"
+            }
+        }
+    }
+}

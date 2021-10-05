@@ -1,0 +1,69 @@
+{
+    "vtex.menu@2.x:menu#ferreteria-y-automotriz-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-accesorios-para-auto",
+            "menu-item#col-title-aceites-automtriz",
+            "menu-item#col-title-ferreteria",
+            "menu-item#col-title-jardineria"
+        ]
+    },
+    "menu-item#col-title-accesorios-para-auto": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/ferreteria-y-automotriz/accesorios-para-auto",
+                "noFollow": true,
+                "tagTitle": "Accesorios para auto",
+                "text": "Accesorios para auto"
+            }
+        }
+    },
+    "menu-item#col-title-aceites-automtriz": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/ferreteria-y-automotriz/aceites",
+                "noFollow": true,
+                "tagTitle": "Aceites",
+                "text": "Aceites"
+            }
+        }
+    },
+    "menu-item#col-title-ferreteria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/ferreteria-y-automotriz/ferreteria",
+                "noFollow": true,
+                "tagTitle": "Ferreteria",
+                "text": "Ferreteria"
+            }
+        }
+    },
+    "menu-item#col-title-jardineria": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/ferreteria-y-automotriz/jardineria",
+                "noFollow": true,
+                "tagTitle": "Jardineria",
+                "text": "Jardineria"
+            }
+        }
+    }
+}

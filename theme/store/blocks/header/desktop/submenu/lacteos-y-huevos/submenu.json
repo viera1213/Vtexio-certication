@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-lacteos-y-huevos": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-lacteos-y-huevos",
+            "flex-layout.row#menu-lacteos-y-huevos"
+        ]
+    },
+
+    "flex-layout.row#menu-lacteos-y-huevos": {
+        "children": [
+            "flex-layout.col#lacteos-y-huevos-col1",
+            "flex-layout.col#lacteos-y-huevos-col2",
+            "flex-layout.col#lacteos-y-huevos-col3"
+        ]
+    },
+    "rich-text#title-departamento-lacteos-y-huevos": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Lacteos y huevos](/lacteos-y-huevos)"
+        }
+    },
+    "flex-layout.col#lacteos-y-huevos-col1": {
+        "children": ["vtex.menu@2.x:menu#lacteos-y-huevos-col1"]
+    },
+    "flex-layout.col#lacteos-y-huevos-col2": {
+        "children": ["vtex.menu@2.x:menu#lacteos-y-huevos-col2"]
+    },
+    "flex-layout.col#lacteos-y-huevos-col3": {
+        "children": ["vtex.menu@2.x:menu#lacteos-y-huevos-col3"]
+    }
+}

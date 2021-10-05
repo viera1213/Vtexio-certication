@@ -1,0 +1,32 @@
+{
+    "header-row#desktop-1": {
+        "children": ["telemarketing"]
+    },
+    "header-row#desktop-2": {
+        "children": ["flex-layout.row#top-bar"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-row#desktop-3": {
+        "children": [
+            "logo#desktop",
+            "header-spacer",
+            "search-bar",
+            "header-spacer",
+            "vtex.menu@2.x:menu#menu-desktop-3",
+            "flex-layout.row#login",
+            "flex-layout.row#cart"
+        ],
+        "props": {
+            "sticky": true
+        }
+    },
+    "header-row#desktop-4": {
+        "children": ["vtex.menu@2.x:menu#header-menu-desktop"],
+        "props": {
+            "blockClass": ["row-menu"],
+            "fullWidth": true
+        }
+    }
+}

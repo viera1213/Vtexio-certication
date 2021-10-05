@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-limpieza-y-hogar": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-limpieza-y-hogar",
+            "flex-layout.row#menu-limpieza-y-hogar"
+        ]
+    },
+
+    "flex-layout.row#menu-limpieza-y-hogar": {
+        "children": [
+            "flex-layout.col#limpieza-y-hogar-col1",
+            "flex-layout.col#limpieza-y-hogar-col2",
+            "flex-layout.col#limpieza-y-hogar-col3"
+        ]
+    },
+    "rich-text#title-departamento-limpieza-y-hogar": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Limpieza y hogar](/limpieza-y-hogar)"
+        }
+    },
+    "flex-layout.col#limpieza-y-hogar-col1": {
+        "children": ["vtex.menu@2.x:menu#limpieza-y-hogar-col1"]
+    },
+    "flex-layout.col#limpieza-y-hogar-col2": {
+        "children": ["vtex.menu@2.x:menu#limpieza-y-hogar-col2"]
+    },
+    "flex-layout.col#limpieza-y-hogar-col3": {
+        "children": ["vtex.menu@2.x:menu#limpieza-y-hogar-col3"]
+    }
+}

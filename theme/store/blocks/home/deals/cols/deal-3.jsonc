@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#deals-3": {
+        "children": ["flex-layout.row#deal-3-content"]
+    },
+    "flex-layout.row#deal-3-content": {
+        "children": [
+            "flex-layout.col#deals-3-section-1",
+            "flex-layout.col#deals-3-section2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#deals-3-section-1": {
+        "children": ["image#deal-3"],
+        "props": {
+            "width": "20%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#deals-3-section2": {
+        "children": ["rich-text#deal-3"],
+        "props": {
+            "width": "80%"
+        }
+    },
+    "image#deal-3": {
+        "props": {
+            "src": "/arquivos/deal-3.png",
+            "maxHeight": "35px",
+            "maxWidth": "35px"
+        }
+    },
+    "rich-text#deal-3": {
+        "props": {
+            "text": "**ENVíOS A TODO EL PAÍS**\nEntrega de forma rápida y segura"
+        }
+    }
+}

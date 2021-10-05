@@ -1,0 +1,237 @@
+{
+    "vtex.menu@2.x:menu#bebidas-y-jugos-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-agua",
+            "menu-item#col-item-agua-1",
+            "menu-item#col-item-agua-2",
+            "menu-item#col-item-agua-3",
+            "menu-item#col-title-bebidas",
+            "menu-item#col-item-bebidas-1",
+            "menu-item#col-item-bebidas-2",
+            "menu-item#col-item-bebidas-3",
+            "menu-item#col-title-concentrados",
+            "menu-item#col-item-concentrados-1",
+            "menu-item#col-item-concentrados-2",
+            "menu-item#col-item-concentrados-3",
+            "menu-item#col-title-jugos",
+            "menu-item#col-item-jugos-1",
+            "menu-item#col-item-jugos-2",
+            "menu-item#col-item-jugos-3"
+        ]
+    },
+    "menu-item#col-title-agua": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/agua",
+                "noFollow": true,
+                "tagTitle": "Agua",
+                "text": "Agua"
+            }
+        }
+    },
+    "menu-item#col-item-agua-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/agua",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-agua-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/agua",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-agua-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/agua",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-bebidas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/bebidas",
+                "noFollow": true,
+                "tagTitle": "Bebidas",
+                "text": "Bebidas"
+            }
+        }
+    },
+    "menu-item#col-item-bebidas-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/bebidas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-bebidas-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/bebidas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-bebidas-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/bebidas",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-concentrados": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/concentrados",
+                "noFollow": true,
+                "tagTitle": "Concentrados",
+                "text": "Concentrados"
+            }
+        }
+    },
+    "menu-item#col-item-concentrados-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/concentrados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-concentrados-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/concentrados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-concentrados-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/concentrados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-jugos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/jugos",
+                "noFollow": true,
+                "tagTitle": "Jugos",
+                "text": "Jugos"
+            }
+        }
+    },
+    "menu-item#col-item-jugos-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/jugos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-jugos-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/jugos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-jugos-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebidas-y-jugos/jugos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

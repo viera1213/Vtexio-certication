@@ -1,0 +1,123 @@
+{
+    "vtex.menu@2.x:menu#cerveza-vinos-y-licores-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-licores",
+            "menu-item#col-item-licores-1",
+            "menu-item#col-item-licores-2",
+            "menu-item#col-item-licores-3",
+            "menu-item#col-title-vinos",
+            "menu-item#col-item-vinos-1",
+            "menu-item#col-item-vinos-2",
+            "menu-item#col-item-vinos-3"
+        ]
+    },
+    "menu-item#col-title-licores": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/licores",
+                "noFollow": true,
+                "tagTitle": "Licores",
+                "text": "Licores"
+            }
+        }
+    },
+    "menu-item#col-item-licores-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/licores",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-licores-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/licores",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-licores-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/licores",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-vinos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/vinos",
+                "noFollow": true,
+                "tagTitle": "Vinos",
+                "text": "Vinos"
+            }
+        }
+    },
+    "menu-item#col-item-vinos-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/vinos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-vinos-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/vinos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-vinos-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cerveza-vinos-y-licores/vinos",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

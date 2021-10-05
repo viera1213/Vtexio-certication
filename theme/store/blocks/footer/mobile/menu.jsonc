@@ -1,0 +1,107 @@
+{
+    "vtex.menu@2.x:menu#footer-mobile-1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-mobile-1-row-1",
+            "menu-item#footer-mobile-1-row-2",
+            "menu-item#footer-mobile-1-row-3",
+            "menu-item#footer-mobile-1-row-4"
+        ]
+    },
+    "menu-item#footer-mobile-1-row-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "CONTÁCTANOS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-1"]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-1": {
+        "children": ["rich-text#contact-us"]
+    },
+    "menu-item#footer-mobile-1-row-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "SERVICIO AL CLIENTE"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-2"]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-2": {
+        "children": ["vtex.menu@2.x:menu#footer-1-col-2-mobile"]
+    },
+    "vtex.menu@2.x:menu#footer-1-col-2-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-1-col-2-item-1",
+            "menu-item#footer-1-col-2-item-2",
+            "menu-item#footer-1-col-2-item-3",
+            "menu-item#footer-1-col-2-item-4"
+        ]
+    },
+    "menu-item#footer-mobile-1-row-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "SECCIONES"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-3"]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-3": {
+        "children": ["vtex.menu@2.x:menu#footer-1-col-3-mobile"]
+    },
+    "vtex.menu@2.x:menu#footer-1-col-3-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-1-col-3-item-1",
+            "menu-item#footer-1-col-3-item-2"
+        ]
+    },
+    "menu-item#footer-mobile-1-row-4": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "SÍGUENOS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-4"]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-4": {
+        "children": ["vtex.menu@2.x:menu#footer-mobile-1-row-4"]
+    },
+    "vtex.menu@2.x:menu#footer-mobile-1-row-4": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.col#footer-1-col-4-item-1",
+            "menu-item#footer-1-col-4-item-2",
+            "flex-layout.col#footer-1-col-4-item-3"
+        ]
+    }
+}

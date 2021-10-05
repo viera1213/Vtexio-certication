@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#item-menu-phone-departamentos": {
+        "children": [
+            "rich-text#item-menu-phone-departamentos",
+            "drawer#item-menu-phone-departamentos"
+        ],
+        "props": {
+            "blockClass": [
+                "row-item-menu-principal",
+                "row-item-menu-principal-categorias"
+            ]
+        }
+    },
+    "rich-text#item-menu-phone-departamentos": {
+        "props": {
+            "text": "Departamentos",
+            "blockClass": [
+                "item-menu-principal",
+                "item-menu-principal-categorias",
+                "icon"
+            ]
+        }
+    },
+    "drawer#item-menu-phone-departamentos": {
+        "children": ["menu#menu-departamentos"],
+        "props": {
+            "blockClass": [
+                "item-menu-principal",
+                "item-menu-principal-categorias"
+            ],
+            "maxWidth": 255
+        }
+    }
+}

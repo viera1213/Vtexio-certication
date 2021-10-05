@@ -1,0 +1,9 @@
+.productDescriptionContainer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.sizeDesktop {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

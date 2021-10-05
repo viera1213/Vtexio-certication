@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-farmacia": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-farmacia",
+            "flex-layout.row#menu-farmacia"
+        ]
+    },
+
+    "flex-layout.row#menu-farmacia": {
+        "children": [
+            "flex-layout.col#farmacia-col1",
+            "flex-layout.col#farmacia-col2",
+            "flex-layout.col#farmacia-col3"
+        ]
+    },
+    "rich-text#title-departamento-farmacia": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Farmacia](/farmacia)"
+        }
+    },
+    "flex-layout.col#farmacia-col1": {
+        "children": ["vtex.menu@2.x:menu#farmacia-col1"]
+    },
+    "flex-layout.col#farmacia-col2": {
+        "children": ["vtex.menu@2.x:menu#farmacia-col2"]
+    },
+    "flex-layout.col#farmacia-col3": {
+        "children": ["vtex.menu@2.x:menu#farmacia-col3"]
+    }
+}

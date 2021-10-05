@@ -1,0 +1,87 @@
+{
+    "header": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header.full": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#desktop-1",
+            "header-row#desktop-2",
+            "header-row#desktop-3",
+            "header-row#desktop-4"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "header-layout.mobile": {
+        "children": [
+            "responsive-layout.tablet#header-tablet",
+            "responsive-layout.phone#header-phone"
+        ]
+    },
+    "responsive-layout.tablet#header-tablet": {
+        "children": [
+            "header-row#header-tablet-1",
+            "header-row#header-tablet-2",
+            "header-row#header-tablet-3",
+            "header-row#header-tablet-4"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "responsive-layout.phone#header-phone": {
+        "children": [
+            "header-row#header-phone-1",
+            "header-row#header-phone-2",
+            "header-row#header-phone-3",
+            "header-row#header-phone-4"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#login": {
+        "children": ["login"],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.row#cart": {
+        "children": ["minicart.v2"],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "placeholder": "¿Qué estás buscando?"
+        }
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "__unstableProductOriginVtex": true,
+            //"productLayout": "HORIZONTAL",
+            "maxSuggestedProducts": 3,
+            "historyFirst": true
+        }
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "vtex.menu@2.x:menu#carnes-pescados-y-mariscos-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-aves",
+            "menu-item#col-item-aves-1",
+            "menu-item#col-item-aves-2",
+            "menu-item#col-item-aves-3",
+            "menu-item#col-title-carne-de-cerdo",
+            "menu-item#col-item-carne-de-cerdo-1",
+            "menu-item#col-item-carne-de-cerdo-2",
+            "menu-item#col-item-carne-de-cerdo-3",
+            "menu-item#col-title-chilorio",
+            "menu-item#col-item-chilorio-1",
+            "menu-item#col-item-chilorio-2",
+            "menu-item#col-item-chilorio-3"
+        ]
+    },
+    "menu-item#col-title-aves": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/aves",
+                "noFollow": true,
+                "tagTitle": "Aves",
+                "text": "Aves"
+            }
+        }
+    },
+    "menu-item#col-item-aves-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/aves",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-aves-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/aves",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-aves-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/aves",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-carne-de-cerdo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/carne-de-cerdo",
+                "noFollow": true,
+                "tagTitle": "Carne de cerdo",
+                "text": "Carne de cerdo"
+            }
+        }
+    },
+    "menu-item#col-item-carne-de-cerdo-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/carne-de-cerdo",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-carne-de-cerdo-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/carne-de-cerdo",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-carne-de-cerdo-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/carne-de-cerdo",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-chilorio": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/chilorio",
+                "noFollow": true,
+                "tagTitle": "Chilorio",
+                "text": "Chilorio"
+            }
+        }
+    },
+    "menu-item#col-item-chilorio-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/chilorio",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-chilorio-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/chilorio",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-chilorio-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/chilorio",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

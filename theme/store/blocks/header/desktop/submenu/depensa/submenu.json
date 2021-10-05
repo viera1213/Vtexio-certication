@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-despensa": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-despensa",
+            "flex-layout.row#menu-despensa"
+        ]
+    },
+
+    "flex-layout.row#menu-despensa": {
+        "children": [
+            "flex-layout.col#despensa-col1",
+            "flex-layout.col#despensa-col2",
+            "flex-layout.col#despensa-col3"
+        ]
+    },
+    "rich-text#title-departamento-despensa": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Despensa](/despensa)"
+        }
+    },
+    "flex-layout.col#despensa-col1": {
+        "children": ["vtex.menu@2.x:menu#despensa-col1"]
+    },
+    "flex-layout.col#despensa-col2": {
+        "children": ["vtex.menu@2.x:menu#despensa-col2"]
+    },
+    "flex-layout.col#despensa-col3": {
+        "children": ["vtex.menu@2.x:menu#despensa-col3"]
+    }
+}

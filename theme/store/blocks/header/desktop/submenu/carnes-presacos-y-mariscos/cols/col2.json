@@ -1,0 +1,123 @@
+{
+    "vtex.menu@2.x:menu#carnes-pescados-y-mariscos-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-carnes-pescados",
+            "menu-item#col-item-carnes-pescados-1",
+            "menu-item#col-item-carnes-pescados-2",
+            "menu-item#col-item-carnes-pescados-3",
+            "menu-item#col-title-res",
+            "menu-item#col-item-res-1",
+            "menu-item#col-item-res-2",
+            "menu-item#col-item-res-3"
+        ]
+    },
+    "menu-item#col-title-carnes-pescados": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/pescados",
+                "noFollow": true,
+                "tagTitle": "Pescados",
+                "text": "Pescados"
+            }
+        }
+    },
+    "menu-item#col-item-carnes-pescados-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/pescados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-carnes-pescados-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/pescados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-carnes-pescados-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/pescados",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-res": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/res",
+                "noFollow": true,
+                "tagTitle": "Res",
+                "text": "Res"
+            }
+        }
+    },
+    "menu-item#col-item-res-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/res",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-res-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/res",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-res-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/carnes-pescados-y-mariscos/res",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

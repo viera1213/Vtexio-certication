@@ -1,0 +1,39 @@
+{
+    "vtex.menu@2.x:menu#mascotas-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-accesorios-mascotas",
+            "menu-item#col-title-alimentos-mascotas"
+        ]
+    },
+    "menu-item#col-title-accesorios-mascotas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/mascotas/accesorios",
+                "noFollow": true,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#col-title-alimentos-mascotas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/mascotas/alimentos-mascotas",
+                "noFollow": true,
+                "tagTitle": "Alimentos",
+                "text": "Alimentos"
+            }
+        }
+    }
+}

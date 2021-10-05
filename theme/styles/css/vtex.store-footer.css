@@ -1,0 +1,16 @@
+.footerLayout {
+    background-color: #f7f7f7;
+}
+
+:global(.vtex-rich-text-0-x-image--copyright) {
+    font-size: 13px;
+    font-family: 'icoomon';
+}
+
+:global(.vtex-rich-text-0-x-image--copyright)::before {
+    content: '\e902';
+}
+
+:global(.vtex-rich-text-0-x-image--copyright):last-child::before {
+    content: '\e925';
+}

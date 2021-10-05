@@ -1,0 +1,15 @@
+{
+    "vtex.menu@2.x:menu#frutas-y-verduras-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-peras",
+            "menu-item#col-title-procesados",
+            "menu-item#col-title-temporada",
+            "menu-item#col-title-tropical",
+            "menu-item#col-title-vegetales",
+            "menu-item#col-title-verdura"
+        ]
+    }
+}

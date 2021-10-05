@@ -1,0 +1,123 @@
+{
+    "vtex.menu@2.x:menu#bebes-y-maternidad-col2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-pañales",
+            "menu-item#col-item-pañales-1",
+            "menu-item#col-item-pañales-2",
+            "menu-item#col-item-pañales-3",
+            "menu-item#col-title-ropa",
+            "menu-item#col-item-ropa-1",
+            "menu-item#col-item-ropa-2",
+            "menu-item#col-item-ropa-3"
+        ]
+    },
+    "menu-item#col-title-pañales": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/pañales",
+                "noFollow": true,
+                "tagTitle": "Pañales",
+                "text": "Pañales"
+            }
+        }
+    },
+    "menu-item#col-item-pañales-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/pañales",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-pañales-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/pañales",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-pañales-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/pañales",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    },
+    "menu-item#col-title-ropa": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/ropa",
+                "noFollow": true,
+                "tagTitle": "Ropa",
+                "text": "Ropa"
+            }
+        }
+    },
+    "menu-item#col-item-ropa-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/ropa",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            }
+        }
+    },
+    "menu-item#col-item-ropa-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/ropa",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            }
+        }
+    },
+    "menu-item#col-item-ropa-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bebes-y-maternidad/ropa",
+                "noFollow": true,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            }
+        }
+    }
+}

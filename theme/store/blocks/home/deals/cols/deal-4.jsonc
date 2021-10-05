@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#deals-4": {
+        "children": ["flex-layout.row#deal-4-content"]
+    },
+    "flex-layout.row#deal-4-content": {
+        "children": [
+            "flex-layout.col#deals-4-section-1",
+            "flex-layout.col#deals-4-section-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#deals-4-section-1": {
+        "children": ["image#deal-4"],
+        "props": {
+            "width": "20%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#deals-4-section-2": {
+        "children": ["rich-text#deal-4"],
+        "props": {
+            "width": "80%"
+        }
+    },
+    "image#deal-4": {
+        "props": {
+            "src": "/arquivos/deal-4.png",
+            "maxHeight": "35px",
+            "maxWidth": "35px"
+        }
+    },
+    "rich-text#deal-4": {
+        "props": {
+            "text": "**COMPRA 100% SEGURA**\nTodos los pagos están protegidos"
+        }
+    }
+}

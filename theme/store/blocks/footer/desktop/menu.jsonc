@@ -1,0 +1,232 @@
+{
+    "vtex.menu@2.x:menu#footer-1-col-1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-1-col-1-title",
+            "flex-layout.col#footer-1-col-1-item-1"
+        ]
+    },
+    "menu-item#footer-1-col-1-title": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "CONTÁCTANOS"
+            }
+        }
+    },
+    "flex-layout.col#footer-1-col-1-item-1": {
+        "children": ["rich-text#contact-us"],
+        "props": {
+            "marginLeft": 6
+        }
+    },
+    "rich-text#contact-us": {
+        "props": {
+            "text": "**LLÁMANOS**\n**telefono**\nDe lunes a sábado\nde 9: 00am a 7: 00pm domingos y feriados de 9: 00am a 3: 00pm\n**ESCRÍBENOS**\ncorreo@dominio.com"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-1-col-2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-1-col-2-title",
+            "menu-item#footer-1-col-2-item-1",
+            "menu-item#footer-1-col-2-item-2",
+            "menu-item#footer-1-col-2-item-3",
+            "menu-item#footer-1-col-2-item-4"
+        ]
+    },
+    "rich-text#footer-1-col-2-title": {
+        "props": {
+            "text": "**SERVICIO AL CLIENTE**"
+        }
+    },
+    "menu-item#footer-1-col-2-title": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "SERVICIO AL CLIENTE"
+            }
+        }
+    },
+    "menu-item#footer-1-col-2-item-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/como-comprar",
+                "noFollow": false,
+                "text": "Cómo comprar"
+            }
+        }
+    },
+    "menu-item#footer-1-col-2-item-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/preguntas-frecuentes",
+                "noFollow": false,
+                "text": "Preguntas Frecuentes"
+            }
+        }
+    },
+    "menu-item#footer-1-col-2-item-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/terminos-y-condiciones",
+                "noFollow": false,
+                "text": "Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#footer-1-col-2-item-4": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/politica-de-privacidad",
+                "noFollow": false,
+                "text": "Política de Privacidad"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#footer-1-col-3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-1-col-3-title",
+            "menu-item#footer-1-col-3-item-1",
+            "menu-item#footer-1-col-3-item-2"
+        ]
+    },
+    "menu-item#footer-1-col-3-title": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "SECCIONES"
+            }
+        }
+    },
+    "menu-item#footer-1-col-3-item-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sellers",
+                "noFollow": false,
+                "text": "Vende aqui"
+            }
+        }
+    },
+    "menu-item#footer-1-col-3-item-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/nosotros",
+                "noFollow": false,
+                "text": "Nosotros"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#footer-1-col-4": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-1-col-4-title",
+            "flex-layout.col#footer-1-col-4-item-1",
+            "menu-item#footer-1-col-4-item-2",
+            "flex-layout.col#footer-1-col-4-item-3"
+        ]
+    },
+    "menu-item#footer-1-col-4-title": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "SÍGUENOS"
+            }
+        }
+    },
+    "flex-layout.col#footer-1-col-4-item-1": {
+        "children": ["social-networks"],
+        "props": {
+            "paddingLeft": 6
+        }
+    },
+    "social-networks": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/cuenta"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/cuenta"
+                },
+                {
+                    "name": "Youtube",
+                    "url": "https://www.youtube.com/user/cuenta"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/cuenta"
+                }
+            ]
+        }
+    },
+    "menu-item#footer-1-col-4-item-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "MEDIOS DE PAGO"
+            }
+        }
+    },
+    "flex-layout.col#footer-1-col-4-item-3": {
+        "children": ["image#pay-icons"],
+        "props": {
+            "paddingLeft": 6
+        }
+    },
+    "image#pay-icons": {
+        "props": {
+            "src": "/arquivos/medios-de-pago.png",
+            "maxWidth": "200px"
+        }
+    }
+}

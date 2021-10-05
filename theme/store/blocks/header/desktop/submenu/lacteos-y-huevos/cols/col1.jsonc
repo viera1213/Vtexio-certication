@@ -1,0 +1,129 @@
+{
+    "vtex.menu@2.x:menu#lacteos-y-huevos-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-cremas-lacteos",
+            "menu-item#col-title-huevo",
+            "menu-item#col-title-leche",
+            "menu-item#col-title-mantequilla",
+            "menu-item#col-title-otros",
+            "menu-item#col-title-postres",
+            "menu-item#col-title-quesos",
+            "menu-item#col-title-yoghurt"
+        ]
+    },
+    "menu-item#col-title-cremas-lacteos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/cremas",
+                "noFollow": true,
+                "tagTitle": "Cremas",
+                "text": "Cremas"
+            }
+        }
+    },
+    "menu-item#col-title-huevo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/huevo",
+                "noFollow": true,
+                "tagTitle": "Huevos",
+                "text": "Huevos"
+            }
+        }
+    },
+    "menu-item#col-title-leche": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/leche",
+                "noFollow": true,
+                "tagTitle": "Leche",
+                "text": "Leche"
+            }
+        }
+    },
+    "menu-item#col-title-mantequilla": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/mantequilla",
+                "noFollow": true,
+                "tagTitle": "Mantequilla",
+                "text": "Mantequilla"
+            }
+        }
+    },
+    "menu-item#col-title-otros": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/otros",
+                "noFollow": true,
+                "tagTitle": "Otros",
+                "text": "Otros"
+            }
+        }
+    },
+    "menu-item#col-title-postres": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/postres",
+                "noFollow": true,
+                "tagTitle": "Postres",
+                "text": "Postres"
+            }
+        }
+    },
+    "menu-item#col-title-quesos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/quesos",
+                "noFollow": true,
+                "tagTitle": "Quesos",
+                "text": "Quesos"
+            }
+        }
+    },
+    "menu-item#col-title-yoghurt": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/lacteos-y-huevos/yoghurt",
+                "noFollow": true,
+                "tagTitle": "Yoghurt",
+                "text": "Yoghurt"
+            }
+        }
+    }
+}

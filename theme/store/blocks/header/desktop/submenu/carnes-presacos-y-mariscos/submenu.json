@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-carnes-pescados-y-mariscos": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-carnes-pescados-y-mariscos",
+            "flex-layout.row#menu-carnes-pescados-y-mariscos"
+        ]
+    },
+
+    "flex-layout.row#menu-carnes-pescados-y-mariscos": {
+        "children": [
+            "flex-layout.col#carnes-pescados-y-mariscos-col1",
+            "flex-layout.col#carnes-pescados-y-mariscos-col2",
+            "flex-layout.col#carnes-pescados-y-mariscos-col3"
+        ]
+    },
+    "rich-text#title-departamento-carnes-pescados-y-mariscos": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Carnes, pescados y mariscos](/carnes-pescados-y-mariscos)"
+        }
+    },
+    "flex-layout.col#carnes-pescados-y-mariscos-col1": {
+        "children": ["vtex.menu@2.x:menu#carnes-pescados-y-mariscos-col1"]
+    },
+    "flex-layout.col#carnes-pescados-y-mariscos-col2": {
+        "children": ["vtex.menu@2.x:menu#carnes-pescados-y-mariscos-col2"]
+    },
+    "flex-layout.col#carnes-pescados-y-mariscos-col3": {
+        "children": ["vtex.menu@2.x:menu#carnes-pescados-y-mariscos-col3"]
+    }
+}

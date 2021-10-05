@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-alimentos-y-congelados": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-alimentos-congelados",
+            "flex-layout.row#menu-alimentos-y-congelados"
+        ]
+    },
+
+    "flex-layout.row#menu-alimentos-y-congelados": {
+        "children": [
+            "flex-layout.col#alimentos-y-congelados-col1",
+            "flex-layout.col#alimentos-y-congelados-col2",
+            "flex-layout.col#alimentos-y-congelados-col3"
+        ]
+    },
+    "rich-text#title-departamento-alimentos-congelados": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Alimentos y congelados](/alimentos-congelados)"
+        }
+    },
+    "flex-layout.col#alimentos-y-congelados-col1": {
+        "children": ["vtex.menu@2.x:menu#alimentos-y-congelados-col1"]
+    },
+    "flex-layout.col#alimentos-y-congelados-col2": {
+        "children": ["vtex.menu@2.x:menu#alimentos-y-congelados-col2"]
+    },
+    "flex-layout.col#alimentos-y-congelados-col3": {
+        "children": ["vtex.menu@2.x:menu#alimentos-y-congelados-col3"]
+    }
+}

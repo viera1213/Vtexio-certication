@@ -1,0 +1,256 @@
+{
+    "vtex.menu@2.x:menu#limpieza-y-hogar-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-aromatizantes",
+            "menu-item#col-title-bolsas",
+            "menu-item#col-title-calzado-limpieza",
+            "menu-item#col-title-casa-y-jardin",
+            "menu-item#col-title-cloros",
+            "menu-item#col-title-desechables",
+            "menu-item#col-title-detergentes",
+            "menu-item#col-title-empaques",
+            "menu-item#col-title-escobas-y-trapeadores"
+        ]
+    },
+    "menu-item#col-title-aromatizantes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/aromatizantes",
+                "noFollow": true,
+                "tagTitle": "Aromatizantes",
+                "text": "Aromatizantes"
+            }
+        }
+    },
+    "menu-item#col-title-bolsas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/bolsas",
+                "noFollow": true,
+                "tagTitle": "Bolsas",
+                "text": "Bolsas"
+            }
+        }
+    },
+    "menu-item#col-title-calzado-limpieza": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/calzado",
+                "noFollow": true,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            }
+        }
+    },
+    "menu-item#col-title-casa-y-jardin": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/casa-y-jardin",
+                "noFollow": true,
+                "tagTitle": "Casa y jardin",
+                "text": "Casa y jardin"
+            }
+        }
+    },
+    "menu-item#col-title-cloros": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/cloros",
+                "noFollow": true,
+                "tagTitle": "Cloros",
+                "text": "Cloros"
+            }
+        }
+    },
+    "menu-item#col-title-desechables": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/desechables",
+                "noFollow": true,
+                "tagTitle": "Desechables",
+                "text": "Desechables"
+            }
+        }
+    },
+    "menu-item#col-title-detergentes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/detergentes",
+                "noFollow": true,
+                "tagTitle": "Detergentes",
+                "text": "Detergentes"
+            }
+        }
+    },
+    "menu-item#col-title-empaques": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/empaques",
+                "noFollow": true,
+                "tagTitle": "Empaques",
+                "text": "Empaques"
+            }
+        }
+    },
+    "menu-item#col-title-escobas-y-trapeadores": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/escobas-y-trapeadores",
+                "noFollow": true,
+                "tagTitle": "Escobas y trapeadores",
+                "text": "Escobas y trapeadores"
+            }
+        }
+    },
+    "menu-item#col-title-fibras": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/fibras",
+                "noFollow": true,
+                "tagTitle": "Fibras",
+                "text": "Fibras"
+            }
+        }
+    },
+    "menu-item#col-title-insecticidas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/insecticidas",
+                "noFollow": true,
+                "tagTitle": "Insecticidas",
+                "text": "Insecticidas"
+            }
+        }
+    },
+    "menu-item#col-title-jabones-limpieza": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/jabones",
+                "noFollow": true,
+                "tagTitle": "Jabones",
+                "text": "Jabones"
+            }
+        }
+    },
+    "menu-item#col-title-limpiadores": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/limpiadores",
+                "noFollow": true,
+                "tagTitle": "Limpiadores",
+                "text": "Limpiadores"
+            }
+        }
+    },
+    "menu-item#col-title-papel-higienico": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/papel-higienico",
+                "noFollow": true,
+                "tagTitle": "Papel higienico",
+                "text": "Papel higienico"
+            }
+        }
+    },
+    "menu-item#col-title-servilletas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/servilletas",
+                "noFollow": true,
+                "tagTitle": "Servilletas",
+                "text": "Servilletas"
+            }
+        }
+    },
+    "menu-item#col-title-suavizantes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/suavizantes",
+                "noFollow": true,
+                "tagTitle": "Suavizantes",
+                "text": "Suavizantes"
+            }
+        }
+    },
+    "menu-item#col-title-toallas-de-rollo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/limpieza-y-hogar/toallas-de-rollo",
+                "noFollow": true,
+                "tagTitle": "Toallas de rollo",
+                "text": "Toallas de rollo"
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "footer": {
+        "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-1",
+            "flex-layout.row#footer-2",
+            "flex-layout.row#footer-3"
+        ]
+    },
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#footer-mobile-1",
+            "flex-layout.row#footer-2",
+            "flex-layout.row#footer-3"
+        ]
+    },
+    "flex-layout.row#footer-1": {
+        "children": [
+            "flex-layout.col#footer-1-col-1",
+            "flex-layout.col#footer-1-col-2",
+            "flex-layout.col#footer-1-col-3",
+            "flex-layout.col#footer-1-col-4"
+        ]
+    },
+    "flex-layout.col#footer-1-col-1": {
+        "children": ["vtex.menu@2.x:menu#footer-1-col-1"]
+    },
+    "flex-layout.col#footer-1-col-2": {
+        "children": ["vtex.menu@2.x:menu#footer-1-col-2"]
+    },
+    "flex-layout.col#footer-1-col-3": {
+        "children": ["vtex.menu@2.x:menu#footer-1-col-3"]
+    },
+    "flex-layout.col#footer-1-col-4": {
+        "children": ["vtex.menu@2.x:menu#footer-1-col-4"]
+    },
+    "flex-layout.row#footer-2": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": ["rich-text#store-locator-link"]
+    },
+    "rich-text#store-locator-link": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Encuentra la tienda más cercana](/nuestras-tiendas)"
+        }
+    },
+    "flex-layout.row#footer-3": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["copyright"]
+        },
+        "children": ["rich-text#copyright"]
+    },
+    "rich-text#copyright": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-base--inverted",
+            "blockClass": ["copyright"],
+            "text": "Todos los derechos reservados **nombre cliente** | Empowered by ![]() ![]()"
+        }
+    },
+    "flex-layout.row#footer-mobile-1": {
+        "children": ["vtex.menu@2.x:menu#footer-mobile-1"]
+    }
+}

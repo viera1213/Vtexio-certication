@@ -1,0 +1,37 @@
+{
+    "vtex.menu@2.x:submenu#submenu-cuidado-personal-y-bellesa": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-cuidado-personal-y-bellesa",
+            "flex-layout.row#menu-cuidado-personal-y-bellesa"
+        ]
+    },
+
+    "flex-layout.row#menu-cuidado-personal-y-bellesa": {
+        "children": [
+            "flex-layout.col#cuidado-personal-y-bellesa-col1",
+            "flex-layout.col#cuidado-personal-y-bellesa-col2",
+            "flex-layout.col#cuidado-personal-y-bellesa-col3"
+        ]
+    },
+    "rich-text#title-departamento-cuidado-personal-y-bellesa": {
+        "props": {
+            "blockClass": ["titulo-menu"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Cuidado personal y bellesa](/cuidado-personal-y-bellesa)"
+        }
+    },
+    "flex-layout.col#cuidado-personal-y-bellesa-col1": {
+        "children": ["vtex.menu@2.x:menu#cuidado-personal-y-bellesa-col1"]
+    },
+    "flex-layout.col#cuidado-personal-y-bellesa-col2": {
+        "children": ["vtex.menu@2.x:menu#cuidado-personal-y-bellesa-col2"]
+    },
+    "flex-layout.col#cuidado-personal-y-bellesa-col3": {
+        "children": ["vtex.menu@2.x:menu#cuidado-personal-y-bellesa-col3"]
+    }
+}

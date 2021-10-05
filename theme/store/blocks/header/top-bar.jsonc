@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#top-bar": {
+        "children": [
+            "responsive-layout.desktop#top-bar",
+            "responsive-layout.tablet#top-bar",
+            "responsive-layout.phone#top-bar"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+
+    "responsive-layout.desktop#top-bar": {
+        "children": ["image#top-bar-desktop"]
+    },
+
+    "responsive-layout.tablet#top-bar": {
+        "children": ["image#top-bar-tablet"]
+    },
+
+    "responsive-layout.phone#top-bar": {
+        "children": ["image#top-bar-phone"]
+    },
+
+    "image#top-bar-desktop": {
+        "props": {
+            "src": "/arquivos/baner-top.png",
+            "link": {
+                "url": "/140?map=productClusterIds&page=3"
+            }
+        }
+    },
+
+    "image#top-bar-tablet": {
+        "props": {
+            "height": "45px",
+            "src": "/arquivos/baner-top-mobile.png",
+            "link": {
+                "url": "/140?map=productClusterIds&page=3"
+            }
+        }
+    },
+
+    "image#top-bar-phone": {
+        "props": {
+            "height": "35px",
+            "src": "/arquivos/baner-top-mobile.png",
+            "link": {
+                "url": "/140?map=productClusterIds&page=3"
+            }
+        }
+    }
+}
